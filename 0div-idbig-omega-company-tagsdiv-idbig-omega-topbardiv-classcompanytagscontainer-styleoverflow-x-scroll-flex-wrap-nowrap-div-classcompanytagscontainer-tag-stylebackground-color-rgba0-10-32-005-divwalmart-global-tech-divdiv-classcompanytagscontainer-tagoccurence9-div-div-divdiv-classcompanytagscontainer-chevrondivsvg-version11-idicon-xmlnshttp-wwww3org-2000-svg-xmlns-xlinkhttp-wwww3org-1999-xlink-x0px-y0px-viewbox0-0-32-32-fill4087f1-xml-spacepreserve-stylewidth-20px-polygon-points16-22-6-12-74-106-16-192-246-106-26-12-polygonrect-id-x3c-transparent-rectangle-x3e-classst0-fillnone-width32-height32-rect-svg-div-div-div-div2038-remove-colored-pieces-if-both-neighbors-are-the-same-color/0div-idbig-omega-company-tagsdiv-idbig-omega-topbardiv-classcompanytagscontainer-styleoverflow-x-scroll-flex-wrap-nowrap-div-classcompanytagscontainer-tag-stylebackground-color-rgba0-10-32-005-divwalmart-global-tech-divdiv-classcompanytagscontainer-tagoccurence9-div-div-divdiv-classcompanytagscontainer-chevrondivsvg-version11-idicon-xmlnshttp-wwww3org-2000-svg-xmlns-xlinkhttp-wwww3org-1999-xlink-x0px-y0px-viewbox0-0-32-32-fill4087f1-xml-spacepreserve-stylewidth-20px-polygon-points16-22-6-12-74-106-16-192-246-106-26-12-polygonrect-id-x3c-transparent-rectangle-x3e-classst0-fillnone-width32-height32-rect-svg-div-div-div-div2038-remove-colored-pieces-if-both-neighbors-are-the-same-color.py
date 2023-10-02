@@ -11,3 +11,8 @@ class Solution:
                     bob += 1
         
         return alice - bob >= 1
+    
+    
+#count
+#Time Complexity: O(n)
+#Space Complexity: O(1)
