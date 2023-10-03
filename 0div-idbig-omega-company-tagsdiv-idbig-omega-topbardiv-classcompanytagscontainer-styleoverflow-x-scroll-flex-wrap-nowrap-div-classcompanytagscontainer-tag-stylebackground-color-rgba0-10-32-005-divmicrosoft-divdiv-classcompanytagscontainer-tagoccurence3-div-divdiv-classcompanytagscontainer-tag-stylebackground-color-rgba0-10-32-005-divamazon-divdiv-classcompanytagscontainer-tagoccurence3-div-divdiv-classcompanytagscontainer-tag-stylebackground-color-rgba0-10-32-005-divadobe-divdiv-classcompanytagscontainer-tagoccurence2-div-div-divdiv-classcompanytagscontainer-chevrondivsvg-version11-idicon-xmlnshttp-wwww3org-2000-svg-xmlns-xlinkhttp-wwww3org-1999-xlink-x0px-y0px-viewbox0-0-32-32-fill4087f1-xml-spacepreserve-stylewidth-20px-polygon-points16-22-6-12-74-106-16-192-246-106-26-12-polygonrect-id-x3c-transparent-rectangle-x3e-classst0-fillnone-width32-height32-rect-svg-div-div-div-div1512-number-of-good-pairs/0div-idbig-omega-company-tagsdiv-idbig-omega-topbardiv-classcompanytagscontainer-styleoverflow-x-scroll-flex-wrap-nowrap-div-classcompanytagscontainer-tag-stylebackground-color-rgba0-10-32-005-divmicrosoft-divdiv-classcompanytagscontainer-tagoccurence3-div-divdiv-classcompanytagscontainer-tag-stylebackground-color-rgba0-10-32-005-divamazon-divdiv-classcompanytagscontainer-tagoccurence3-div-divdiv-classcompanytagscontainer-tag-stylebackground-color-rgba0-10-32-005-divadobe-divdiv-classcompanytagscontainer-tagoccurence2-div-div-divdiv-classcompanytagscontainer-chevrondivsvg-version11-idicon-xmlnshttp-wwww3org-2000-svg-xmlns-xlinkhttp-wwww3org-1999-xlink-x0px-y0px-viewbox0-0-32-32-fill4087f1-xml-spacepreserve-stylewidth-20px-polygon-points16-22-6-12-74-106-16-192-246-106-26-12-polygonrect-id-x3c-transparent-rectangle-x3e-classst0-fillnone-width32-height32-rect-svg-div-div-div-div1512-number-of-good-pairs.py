@@ -1,16 +1,18 @@
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
-        
+        hashMap = dict()
         result = 0
         
-        
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] == nums[j]:
-                    result += 1
-                    
+
+        for num in nums:
+            result += hashMap.get(num, 0)
+            if num not in hashMap.keys():
+                hashMap[num] = 1 
+            else:                
+                hashMap[num] = hashMap.get(num, 0) + 1
+            
         return result
 
-#Brute Force
-#Time Complexity: O(n^2)
-#Space Complexity: O(1)
+#Maths
+#Time Complexity: O(n)
+#Space Complexity: O(n)
