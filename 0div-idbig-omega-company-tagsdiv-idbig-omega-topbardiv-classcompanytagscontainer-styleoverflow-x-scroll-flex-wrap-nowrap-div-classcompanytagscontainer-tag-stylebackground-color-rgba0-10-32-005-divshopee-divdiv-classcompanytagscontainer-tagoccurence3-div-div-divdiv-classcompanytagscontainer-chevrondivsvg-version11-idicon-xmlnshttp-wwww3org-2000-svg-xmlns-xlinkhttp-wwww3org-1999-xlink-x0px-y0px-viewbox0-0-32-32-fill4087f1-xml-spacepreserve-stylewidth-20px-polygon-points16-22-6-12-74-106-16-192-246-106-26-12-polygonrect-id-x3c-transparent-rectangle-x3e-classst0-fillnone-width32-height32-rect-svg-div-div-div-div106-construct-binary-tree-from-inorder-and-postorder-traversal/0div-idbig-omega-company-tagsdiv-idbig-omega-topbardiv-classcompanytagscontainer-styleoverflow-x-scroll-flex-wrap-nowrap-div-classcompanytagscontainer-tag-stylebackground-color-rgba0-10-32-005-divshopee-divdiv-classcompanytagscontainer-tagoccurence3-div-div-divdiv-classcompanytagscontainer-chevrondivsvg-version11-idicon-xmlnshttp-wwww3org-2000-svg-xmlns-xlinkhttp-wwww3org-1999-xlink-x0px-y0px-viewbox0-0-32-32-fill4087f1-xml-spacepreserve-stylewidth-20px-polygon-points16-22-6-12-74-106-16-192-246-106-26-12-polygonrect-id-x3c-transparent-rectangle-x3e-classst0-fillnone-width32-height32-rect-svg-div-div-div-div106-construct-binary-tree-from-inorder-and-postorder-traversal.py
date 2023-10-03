@@ -5,29 +5,36 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    idx = 0
+    hashMap = dict()
     def buildTree(self, inorder: List[int], postorder: List[int]) -> Optional[TreeNode]:
         if inorder is None or len(inorder) == 0 or postorder is None or len(postorder) == 0:
             return None
         
-        rootVal = postorder[-1]
+        self.idx = len(postorder) - 1
+        self.hashMap = dict()
+        
+        for index, node in enumerate(inorder):
+            self.hashMap[node] = index
+            
+        return self.helper(postorder, 0, len(postorder) - 1)
+    
+    def helper(self, postorder, start, end):
+        #base
+        if start > end or self.idx < 0:
+            return None
+        
+        rootVal = postorder[self.idx]
         root = TreeNode(rootVal)
-        rootIdx = 0
+        self.idx -= 1
         
-        for i in range(len(inorder)):
-            if inorder[i] == rootVal:
-                rootIdx = i
-                break
+        rootIdx = self.hashMap.get(rootVal)
         
-        inLeft = inorder[0: rootIdx]
-        inRight = inorder[rootIdx + 1 : ]
-        postLeft = postorder[0 : rootIdx]
-        postRight = postorder[rootIdx : len(postorder) - 1]
-        
-        root.left = self.buildTree(inLeft, postLeft)
-        root.right = self.buildTree(inRight, postRight)
+        root.right = self.helper(postorder, rootIdx + 1, end)
+        root.left = self.helper(postorder, start, rootIdx - 1)
         
         return root
 
-#Recursion
-#Time Complexity: O(n^2)
-#Space Complexity: O(n^2)
+#Recursion, hashMap
+#Time Complexity: O(n)
+#Space Complexity: O(n)
