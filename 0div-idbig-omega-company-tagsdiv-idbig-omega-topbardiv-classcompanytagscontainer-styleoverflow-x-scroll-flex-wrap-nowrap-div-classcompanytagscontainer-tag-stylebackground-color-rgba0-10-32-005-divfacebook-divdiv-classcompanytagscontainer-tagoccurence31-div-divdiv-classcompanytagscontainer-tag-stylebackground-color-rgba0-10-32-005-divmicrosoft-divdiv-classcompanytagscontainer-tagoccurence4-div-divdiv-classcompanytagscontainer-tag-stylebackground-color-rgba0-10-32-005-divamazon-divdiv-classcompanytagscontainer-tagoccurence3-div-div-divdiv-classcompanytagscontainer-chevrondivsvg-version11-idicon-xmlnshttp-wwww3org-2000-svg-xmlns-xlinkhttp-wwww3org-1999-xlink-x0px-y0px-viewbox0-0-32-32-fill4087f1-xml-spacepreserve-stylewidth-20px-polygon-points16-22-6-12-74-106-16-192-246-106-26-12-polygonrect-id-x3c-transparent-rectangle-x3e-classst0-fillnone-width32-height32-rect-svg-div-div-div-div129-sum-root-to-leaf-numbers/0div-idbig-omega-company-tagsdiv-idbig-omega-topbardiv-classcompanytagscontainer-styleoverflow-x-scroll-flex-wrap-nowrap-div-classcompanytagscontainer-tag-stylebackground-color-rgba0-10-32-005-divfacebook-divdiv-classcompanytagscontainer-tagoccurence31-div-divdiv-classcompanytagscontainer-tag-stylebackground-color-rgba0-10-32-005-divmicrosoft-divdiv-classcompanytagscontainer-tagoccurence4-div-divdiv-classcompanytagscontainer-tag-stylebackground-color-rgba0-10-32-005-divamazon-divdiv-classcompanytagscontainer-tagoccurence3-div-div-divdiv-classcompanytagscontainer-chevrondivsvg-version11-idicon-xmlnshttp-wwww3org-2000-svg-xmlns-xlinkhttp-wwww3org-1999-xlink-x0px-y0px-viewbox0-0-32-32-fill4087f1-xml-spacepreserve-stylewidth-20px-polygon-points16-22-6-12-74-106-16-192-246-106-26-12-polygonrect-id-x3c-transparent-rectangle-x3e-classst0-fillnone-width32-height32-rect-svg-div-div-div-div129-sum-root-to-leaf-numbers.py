@@ -8,20 +8,22 @@ class Solution:
     result = 0
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         
-        if root is None:
-            return 0
+        st = list()
+        numStack = list()
+        num = 0
+        result = 0
         
-        self.result = set()
-        return self.dfs(root, 0)
-
-    
-    def dfs(self, root, num):
-        #base case
-        if root is None:
-            return 0
-        
-        if root.right is None and root.left is None:
-            return num * 10 + root.val
-
-        return self.dfs(root.left, num * 10 + root.val) + self.dfs(root.right, num * 10 + root.val)
-        
+        while root or st:
+            while root:
+                st.append(root)
+                num = num * 10 + root.val
+                numStack.append(num)
+                root = root.left
+            
+            root = st.pop()
+            num = numStack.pop()
+            if root.right is None and root.left is None:
+                result += num
+            
+            root = root.right
+        return result
