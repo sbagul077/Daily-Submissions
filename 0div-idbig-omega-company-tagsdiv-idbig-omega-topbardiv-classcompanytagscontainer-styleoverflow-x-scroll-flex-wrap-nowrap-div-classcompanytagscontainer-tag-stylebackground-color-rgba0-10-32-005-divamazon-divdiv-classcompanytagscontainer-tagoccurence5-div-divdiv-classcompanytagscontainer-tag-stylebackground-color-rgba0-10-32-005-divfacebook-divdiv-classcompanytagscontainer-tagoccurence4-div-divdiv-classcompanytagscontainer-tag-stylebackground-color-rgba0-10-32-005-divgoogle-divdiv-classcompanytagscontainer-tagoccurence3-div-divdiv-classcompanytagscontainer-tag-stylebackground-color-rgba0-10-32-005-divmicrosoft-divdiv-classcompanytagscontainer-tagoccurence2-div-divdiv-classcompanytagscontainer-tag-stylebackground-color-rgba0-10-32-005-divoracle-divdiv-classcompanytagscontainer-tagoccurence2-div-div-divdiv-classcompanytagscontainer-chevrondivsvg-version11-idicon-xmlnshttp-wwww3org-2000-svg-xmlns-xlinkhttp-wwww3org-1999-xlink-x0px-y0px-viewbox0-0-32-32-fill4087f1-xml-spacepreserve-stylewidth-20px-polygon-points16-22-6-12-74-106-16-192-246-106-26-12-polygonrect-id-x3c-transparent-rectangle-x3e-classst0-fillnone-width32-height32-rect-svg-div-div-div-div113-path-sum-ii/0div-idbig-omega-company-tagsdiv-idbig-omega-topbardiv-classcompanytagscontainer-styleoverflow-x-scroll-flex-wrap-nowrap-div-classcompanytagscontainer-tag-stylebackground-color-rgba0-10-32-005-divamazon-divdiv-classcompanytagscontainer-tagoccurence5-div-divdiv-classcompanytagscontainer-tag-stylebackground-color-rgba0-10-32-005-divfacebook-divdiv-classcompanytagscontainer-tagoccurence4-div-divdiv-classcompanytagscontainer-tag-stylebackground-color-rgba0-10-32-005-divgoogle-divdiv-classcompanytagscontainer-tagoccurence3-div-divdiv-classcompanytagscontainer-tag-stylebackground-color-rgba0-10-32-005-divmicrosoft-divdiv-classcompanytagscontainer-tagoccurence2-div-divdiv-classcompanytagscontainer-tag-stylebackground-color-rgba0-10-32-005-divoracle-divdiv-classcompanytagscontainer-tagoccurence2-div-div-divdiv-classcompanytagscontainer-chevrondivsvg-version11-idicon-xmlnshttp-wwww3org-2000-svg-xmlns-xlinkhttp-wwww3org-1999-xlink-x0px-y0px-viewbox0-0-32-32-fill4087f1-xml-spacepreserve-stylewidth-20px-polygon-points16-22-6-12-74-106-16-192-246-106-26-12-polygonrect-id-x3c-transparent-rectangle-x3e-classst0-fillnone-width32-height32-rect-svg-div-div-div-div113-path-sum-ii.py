@@ -27,10 +27,11 @@ class Solution:
         path.append(root.val)
         
         if root.left is None and root.right is None and currSum == self.target:
-            self.result.append(path)
+            self.result.append(path.copy())
         
-        self.dfs(root.left, currSum, path.copy())
-        self.dfs(root.right, currSum, path.copy())
+        self.dfs(root.left, currSum, path)
+        self.dfs(root.right, currSum, path)
+        path.pop()
         
 #DFS
 #Time Complexity: O(n^2)
