@@ -7,32 +7,34 @@
 class Solution:
     result = []
     target = 0
+    path = []
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
         if root is None:
             return list()
         
+        self.path = []
         self.target = targetSum
         self.result = list()
         
-        self.dfs(root, 0, path = [])
+        self.dfs(root, 0)
         
         return self.result
     
-    def dfs(self, root, currSum, path):
+    def dfs(self, root, currSum):
         #base 
         if root is None:
             return 
         
         currSum = currSum + root.val
-        path.append(root.val)
+        self.path.append(root.val)
         
         if root.left is None and root.right is None and currSum == self.target:
-            self.result.append(path.copy())
+            self.result.append(self.path.copy())
         
-        self.dfs(root.left, currSum, path)
-        self.dfs(root.right, currSum, path)
-        path.pop()
+        self.dfs(root.left, currSum)
+        self.dfs(root.right, currSum)
+        self.path.pop()
         
 #DFS
-#Time Complexity: O(n^2)
+#Time Complexity: O(n)
 #Space Complexity: O(h)
