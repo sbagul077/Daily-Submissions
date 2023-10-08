@@ -7,20 +7,31 @@
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         if root is None:
-            return True        
-
-        return self.dfs(root.left, root.right)
-    
-    def dfs(self, left, right):
-        if left is None and right is None:
             return True
         
-        if left is None or right is None or left.val != right.val:
-            return False
+        q = collections.deque()
+        q.append(root.left)
+        q.append(root.right)
         
-        return self.dfs(left.left, right.right) and self.dfs(left.right, right.left)
-        # return True
-
-#DFS
+        while q:
+            left = q.popleft()
+            right = q.popleft()
+            
+            if left is None and right is None:
+                continue
+                
+            if left is None or right is None or left.val != right.val:
+                return False
+            
+            q.append(left.left)
+            q.append(right.right)
+            q.append(left.right)
+            q.append(right.left)
+        
+        return True
+    
+    
+#BFS
 #Time Complexity: O(n)
-#Space Complexity: O(h)
+#Space Complexity: O(n)
+        
