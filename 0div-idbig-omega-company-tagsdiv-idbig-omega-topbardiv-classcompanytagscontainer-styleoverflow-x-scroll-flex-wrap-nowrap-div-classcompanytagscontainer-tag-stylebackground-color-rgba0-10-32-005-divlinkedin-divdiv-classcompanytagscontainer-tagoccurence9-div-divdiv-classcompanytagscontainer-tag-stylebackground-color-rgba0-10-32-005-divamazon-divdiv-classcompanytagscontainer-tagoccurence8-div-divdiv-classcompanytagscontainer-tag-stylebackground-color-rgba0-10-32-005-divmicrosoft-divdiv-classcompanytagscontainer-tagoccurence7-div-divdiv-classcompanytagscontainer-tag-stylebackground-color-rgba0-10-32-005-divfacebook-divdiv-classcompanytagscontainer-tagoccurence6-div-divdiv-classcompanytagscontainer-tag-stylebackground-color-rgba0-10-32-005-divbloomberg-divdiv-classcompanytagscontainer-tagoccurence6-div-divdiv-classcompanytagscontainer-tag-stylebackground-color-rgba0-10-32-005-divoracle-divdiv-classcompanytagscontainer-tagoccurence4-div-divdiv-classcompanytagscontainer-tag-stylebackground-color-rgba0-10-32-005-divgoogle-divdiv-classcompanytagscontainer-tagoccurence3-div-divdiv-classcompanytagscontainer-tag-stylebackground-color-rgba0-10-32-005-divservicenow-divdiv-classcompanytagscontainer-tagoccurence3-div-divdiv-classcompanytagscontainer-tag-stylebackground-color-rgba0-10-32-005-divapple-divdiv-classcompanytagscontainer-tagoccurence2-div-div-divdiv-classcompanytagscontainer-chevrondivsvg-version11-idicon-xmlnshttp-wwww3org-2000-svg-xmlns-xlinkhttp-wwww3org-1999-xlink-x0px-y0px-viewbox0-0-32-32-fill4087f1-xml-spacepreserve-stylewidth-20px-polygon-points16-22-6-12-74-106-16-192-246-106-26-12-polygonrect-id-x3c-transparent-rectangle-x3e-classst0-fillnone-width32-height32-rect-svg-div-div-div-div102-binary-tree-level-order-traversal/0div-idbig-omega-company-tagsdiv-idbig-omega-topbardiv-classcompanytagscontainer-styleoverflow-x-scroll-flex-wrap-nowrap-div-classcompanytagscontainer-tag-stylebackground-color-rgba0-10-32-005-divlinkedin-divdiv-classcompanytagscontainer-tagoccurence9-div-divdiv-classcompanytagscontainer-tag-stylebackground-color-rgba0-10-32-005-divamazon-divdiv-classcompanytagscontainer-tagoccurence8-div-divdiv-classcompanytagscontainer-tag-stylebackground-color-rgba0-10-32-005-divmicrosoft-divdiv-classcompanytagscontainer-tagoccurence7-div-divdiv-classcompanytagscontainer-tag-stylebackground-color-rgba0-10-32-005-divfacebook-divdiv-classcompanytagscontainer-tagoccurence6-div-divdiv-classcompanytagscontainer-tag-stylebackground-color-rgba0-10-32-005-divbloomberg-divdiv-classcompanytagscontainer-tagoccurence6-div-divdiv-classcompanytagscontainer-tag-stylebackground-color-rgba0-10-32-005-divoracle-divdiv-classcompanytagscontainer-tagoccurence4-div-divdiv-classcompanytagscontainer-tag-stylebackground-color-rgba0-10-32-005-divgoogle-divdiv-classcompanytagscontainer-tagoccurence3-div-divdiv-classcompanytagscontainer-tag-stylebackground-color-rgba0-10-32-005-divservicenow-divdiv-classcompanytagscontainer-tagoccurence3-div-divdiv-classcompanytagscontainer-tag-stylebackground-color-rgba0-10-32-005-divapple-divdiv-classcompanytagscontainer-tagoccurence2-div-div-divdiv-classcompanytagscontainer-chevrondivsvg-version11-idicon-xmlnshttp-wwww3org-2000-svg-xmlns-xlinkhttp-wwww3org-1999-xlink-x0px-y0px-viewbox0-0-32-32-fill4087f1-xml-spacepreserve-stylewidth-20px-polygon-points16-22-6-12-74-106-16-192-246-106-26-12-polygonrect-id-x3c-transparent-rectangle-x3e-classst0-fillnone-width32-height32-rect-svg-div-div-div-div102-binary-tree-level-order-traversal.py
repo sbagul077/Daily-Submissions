@@ -6,24 +6,18 @@
 #         self.right = right
 class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        if root is None:
-            return []
+        def dfs(node, level):
+            if not node:
+                return
 
-        result = []
-
-        q = [root]
-
-        while q:
-            li = []
-            for i in range(len(q)):
-                node = q.pop(0)
-                li.append(node.val)
-
-                if node.left:
-                    q.append(node.left)
-                if node.right:
-                    q.append(node.right)
+            if len(self.result) <= level:
+                self.result.append([])
+            self.result[level].append(node.val)
             
-            result.append(li)
+            dfs(node.left, level + 1)
+            dfs(node.right, level + 1)
+            
+        self.result = []
+        dfs(root, 0)
         
-        return result
+        return self.result
