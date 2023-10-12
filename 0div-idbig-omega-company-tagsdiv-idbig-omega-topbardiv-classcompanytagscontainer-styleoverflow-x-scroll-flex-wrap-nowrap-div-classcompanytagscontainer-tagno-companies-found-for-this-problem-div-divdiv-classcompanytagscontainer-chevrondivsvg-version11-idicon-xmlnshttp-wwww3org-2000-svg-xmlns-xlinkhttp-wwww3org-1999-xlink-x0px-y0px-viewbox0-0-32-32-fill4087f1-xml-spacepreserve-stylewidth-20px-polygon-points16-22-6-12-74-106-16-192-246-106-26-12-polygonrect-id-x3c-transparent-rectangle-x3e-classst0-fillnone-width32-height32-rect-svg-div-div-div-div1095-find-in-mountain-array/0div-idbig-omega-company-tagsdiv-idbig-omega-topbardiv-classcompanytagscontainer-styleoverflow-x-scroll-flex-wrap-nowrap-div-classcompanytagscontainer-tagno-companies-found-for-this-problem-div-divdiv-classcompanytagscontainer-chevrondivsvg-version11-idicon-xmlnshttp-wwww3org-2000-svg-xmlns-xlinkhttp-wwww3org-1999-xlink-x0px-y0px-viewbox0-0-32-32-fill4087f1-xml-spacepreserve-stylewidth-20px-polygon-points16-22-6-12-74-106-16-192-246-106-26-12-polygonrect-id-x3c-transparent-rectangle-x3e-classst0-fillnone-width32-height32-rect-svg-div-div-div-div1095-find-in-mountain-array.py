@@ -1,72 +1,77 @@
-# """
-# This is MountainArray's API interface.
-# You should not implement it, or speculate about its implementation
-# """
-#class MountainArray:
-#    def get(self, index: int) -> int:
-#    def length(self) -> int:
-
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
+        # Save the length of the mountain array
         length = mountain_arr.length()
-        
-        low = 1
-        high = length - 2 # we take one less on left and one left on right as we won't find any peak on the edges, slight optimization
-        mid = 0
-        while low <= high:
-            mid = low + (high - low) // 2
-            
-            left = mountain_arr.get(mid - 1)
-            middle = mountain_arr.get(mid)
-            right = mountain_arr.get(mid + 1)
-        
-            if left < middle < right:
-                low = mid + 1            
-            elif left > middle > right:
-                high = mid - 1            
-            else:
-                break
-            
-        peak = mid
-        # print(mountain_arr.get(mid))
-        #search on left side of the array
-        low = 0
-        high = peak
-        
-        while low <= high:
-            mid = low + (high - low) // 2
-            
-            val = mountain_arr.get(mid)
-            
-            if val == target:
-                return mid
-            elif val > target:
-                high = mid - 1
-            else:
-                low = mid + 1
-        
-        #searh on the right side of the array
-        
-        low = peak  
-        high = length - 1
-        # print(mountain_arr.get(low), mountain_arr.get(high))
-        while low <= high:
-            
-            mid = low + (high - low) // 2
-            
-            val = mountain_arr.get(mid)
-            print(val)
-            if val == target:
-                return mid
-            elif val > target:
-                low = mid + 1
-            else:
-                high = mid - 1
-        
-        return -1
 
-#Binary Search
-#Time Complexity: O(2logn)
-#Space Complexity: O(1)
+        # Initialize the cache
+        cache = {}
+
+        # 1. Find the index of the peak element
+        low = 1
+        high = length - 2
+        while low != high:
+            test_index = (low + high) >> 1
+
+            if test_index in cache:
+                curr = cache[test_index]
+            else:
+                curr = mountain_arr.get(test_index)
+                cache[test_index] = curr
             
+            if test_index + 1 in cache:
+                next = cache[test_index + 1]
+            else:
+                next = mountain_arr.get(test_index + 1)
+                cache[test_index + 1] = next
             
+            if curr < next:
+                if curr == target:
+                    return test_index
+                if next == target:
+                    return test_index + 1
+                low = test_index + 1
+            else:
+                high = test_index
+        
+        peak_index = low
+
+        # 2. Search in the strictly increasing part of the array
+        # If found, will be returned in the loop itself.
+        low = 0
+        high = peak_index
+        while low <= high:
+            test_index = (low + high) >> 1
+
+            if test_index in cache:
+                curr = cache[test_index]
+            else:
+                curr = mountain_arr.get(test_index)
+                
+            if curr == target:
+                return test_index
+            elif curr < target:
+                low = test_index + 1
+            else:
+                high = test_index - 1
+        
+        # 3. Search in the strictly decreasing part of the array
+        # If found, will be returned in the loop itself.
+        low = peak_index + 1
+        high = length - 1
+        while low <= high:
+            test_index = (low + high) >> 1
+
+            if test_index in cache:
+                curr = cache[test_index]
+            else:
+                curr = mountain_arr.get(test_index)
+                
+            if curr == target:
+                return test_index
+            elif curr > target:
+                low = test_index + 1
+            else:
+                high = test_index - 1
+        
+        # Target is not present in the mountain array
+        return -1        
