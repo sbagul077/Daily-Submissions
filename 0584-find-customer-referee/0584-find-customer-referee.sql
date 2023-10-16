@@ -2,4 +2,7 @@
 
 
 select name from Customer
-where referee_id <> 2 or referee_id is Null;
+where referee_id is NULL OR referee_id <> 2;
+
+# SELECT name FROM Customer
+# WHERE referee_id IS NULL OR referee_id !=2
