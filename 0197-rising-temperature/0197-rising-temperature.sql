@@ -5,7 +5,13 @@
 # on datediff(t1.recordDate, t2.recordDate) = 1
 # and t1.temperature> t2.temperature;
 
-select t1.id as "id"
-from Weather as t1 join Weather as t2
-on datediff(t1.recordDate , t2.recordDate) = 1
-and t1.temperature > t2.temperature;
+# select t1.id as "id"
+# from Weather as t1 join Weather as t2
+# on datediff(t1.recordDate , t2.recordDate) = 1
+# and t1.temperature > t2.temperature;
+
+
+SELECT DISTINCT a.Id
+FROM Weather a,Weather b
+WHERE a.Temperature > b.Temperature
+AND DATEDIFF(a.Recorddate,b.Recorddate) = 1
