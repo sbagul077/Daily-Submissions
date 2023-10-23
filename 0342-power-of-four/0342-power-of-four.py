@@ -13,6 +13,6 @@ class Solution:
         return self.isPowerOfFour(n // 4)
 
     
-#Recursion 
+#Recursion and Maths(logarithmic)
 #Time Complexity: O(n)
 #Space Complexity: O(1)
