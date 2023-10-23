@@ -1,5 +1,9 @@
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
+        
+        return n > 0 and log(n, 4) % 1 == 0
+            # return True
+        
         if n == 1:
             return True
         
@@ -11,4 +15,4 @@ class Solution:
     
 #Recursion 
 #Time Complexity: O(n)
-#Space Complexity: O(n)
+#Space Complexity: O(1)
