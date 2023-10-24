@@ -26,3 +26,7 @@ class Solution:
                     q.append(curr.right)
             result.append(row_max)
         return result
+    
+#BFS
+#Time Complexity: O(n)
+#Space Complexity: O(n)
