@@ -5,28 +5,33 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    result = list()
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        self.result = list()
-        
+        result = list()
         if root is None:
-            return self.result
+            return result
         
-        self.dfs(root, 0)
-        return self.result
-    
-    def dfs(self, node, level):
-        if node is None:
-            return 
+        q = collections.deque()
+        q.append(root)
         
-        if len(self.result) == level:
-            self.result.append(list())
+        while q:
+            li = list()
+            size = len(q)
+            
+            for i in range(size):
+                currNode = q.popleft()
+                if currNode.left is not None:
+                    q.append(currNode.left)
+                    
+                if currNode.right is not None:
+                    q.append(currNode.right)
+                
+                li.append(currNode.val)
+            
+            result.append(li)
         
-        self.result[level].append(node.val)
-        
-        self.dfs(node.left, level + 1)
-        self.dfs(node.right, level + 1)
+        return result
 
-#DFS
+#BFS
 #Time Complexity: O(n)
-#Space Complexity: O(n)
+#Space Complexity: O(n).Size of the tree
+                    
