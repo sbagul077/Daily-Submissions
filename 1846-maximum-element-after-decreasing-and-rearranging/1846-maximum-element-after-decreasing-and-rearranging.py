@@ -8,3 +8,7 @@ class Solution:
                 prev += 1
         
         return prev
+    
+#Greedy
+#Time Complexity: O(n.logn)
+#Space Complexity: O(logn)
