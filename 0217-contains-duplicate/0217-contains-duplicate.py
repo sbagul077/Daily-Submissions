@@ -10,3 +10,8 @@ class Solution:
                 return True
             
         return False
+    
+
+#HashMap
+#Time Complexity: O(n)
+#Space Complexity: O(n)
