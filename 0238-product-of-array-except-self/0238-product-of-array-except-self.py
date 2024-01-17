@@ -1,26 +1,29 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        result = [1] * len(nums)
         if nums is None or len(nums) == 0:
-            return list()
+            return result
         
-        result = [0] * len(nums)
-        result[0] = 1
-        
-        n = len(nums)
+        arr1 = [1 for i in range(len(nums))]
+        arr2 = [1 for i in range(len(nums))]
         rp = 1
-        #left to right pass
-        for i in range(1, n):
-            rp = rp * nums[i - 1]
-            result[i] = rp         
-
+        for i in range(1, len(nums)):
+            arr1[i] = rp * nums[i - 1]
+            rp *= nums[i - 1]
+        
         rp = 1
         
-        for i in range(n - 2, -1, -1):
-            rp = rp * nums[i + 1]
-            result[i] = result[i] * rp
+        for i in range(len(nums) - 2, -1, -1):
+            arr2[i] = rp * nums[i + 1]
+            rp *= nums[i + 1]
+            
+        print(arr1, arr2)
+        
+        for i in range(len(arr1)):
+            result[i] = arr1[i] * arr2[i]
         
         return result
-
-#2 pass
-#Time Complexity: O(n)
-#Space Complexity: O(1)
+                
+# Arrays
+#Time Complexity: O(2n)
+#Space Complexity: O(2n)
