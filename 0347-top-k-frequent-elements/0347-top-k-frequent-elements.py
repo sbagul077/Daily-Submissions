@@ -1,31 +1,43 @@
-from queue import PriorityQueue
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        result = [0] * k
+        result = []
         
         hashMap = dict()
-        
-        pq = PriorityQueue()
+        max_num = float('-inf')
         
         for num in nums:
             if num not in hashMap.keys():
                 hashMap[num] = 1
             else:
                 hashMap[num] = hashMap.get(num) + 1
-        
-        # print(hashMap)
-        for key in hashMap.keys():
-            pq.put((hashMap.get(key), key))
             
-            if pq.qsize() > k:
-                pq.get()
+            max_num = max(max_num, hashMap.get(num))
         
-        for i in range(k - 1, -1, -1):
-            curr = pq.get()
-            result[i] = curr[1]
+        # print(max_num, hashMap)
         
+        bucketArr = [None for i in range(max_num + 1)]
+        
+        for key, value in hashMap.items():
+            if bucketArr[value]:
+                bucketArr[value].append(key)
+            else:
+                bucketArr[value] = [key]
+        
+        for i in range(len(bucketArr) - 1, 0, -1):
+            if bucketArr[i]:
+                if k > 0:
+                    curr = bucketArr[i]
+                    
+                    for i in curr:
+                        if k > 0:
+                            result.append(i)
+                            k -= 1
+            # else:
+            #     continue
+                
+        # print(bucketArr, k)
         return result
 
-#Dictionary, Min heap
-#Time Complexity: O(nlogk)
+#HashMap + BuckerArr
+#Time Complexity: O(2n)
 #Space Complexity: O(n)
