@@ -13,8 +13,6 @@ class Solution:
             
             max_num = max(max_num, hashMap.get(num))
         
-        # print(max_num, hashMap)
-        
         bucketArr = [None for i in range(max_num + 1)]
         
         for key, value in hashMap.items():
@@ -32,8 +30,8 @@ class Solution:
                         if k > 0:
                             result.append(i)
                             k -= 1
-            # else:
-            #     continue
+            elif k <= 0:
+                break
                 
         # print(bucketArr, k)
         return result
