@@ -30,8 +30,8 @@ class Solution:
                         if k > 0:
                             result.append(i)
                             k -= 1
-            elif k <= 0:
-                break
+            # elif k <= 0:
+            #     break
                 
         # print(bucketArr, k)
         return result
