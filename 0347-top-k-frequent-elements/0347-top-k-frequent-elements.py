@@ -22,17 +22,17 @@ class Solution:
                 bucketArr[value] = [key]
         
         for i in range(len(bucketArr) - 1, 0, -1):
-            if bucketArr[i]:
-                if k > 0:
-                    curr = bucketArr[i]
-                    
-                    for i in curr:
+            if k > 0:
+                curr = bucketArr[i]                
+                if bucketArr[i]:
+                    for c in range(len(curr)):
                         if k > 0:
-                            result.append(i)
+                            result.append(curr[c])
                             k -= 1
-            # elif k <= 0:
-            #     break
-                
+                        else:
+                            break
+            else:
+                break
         # print(bucketArr, k)
         return result
 
