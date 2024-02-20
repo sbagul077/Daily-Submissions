@@ -4,7 +4,7 @@ class Solution:
         high = len(numbers) - 1
         
         while low <= high:
-            currSum = numbers[high] +  numbers[low]
+            currSum = numbers[high] + numbers[low]
             
             if currSum == target:
                 return [low + 1, high + 1]
