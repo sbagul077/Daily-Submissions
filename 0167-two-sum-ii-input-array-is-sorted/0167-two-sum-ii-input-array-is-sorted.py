@@ -2,12 +2,13 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         low = 0
         high = len(numbers) - 1
-        # hashMap = dict()
         
         while low <= high:
-            if numbers[low] + numbers[high] == target:
+            currSum = numbers[high] +  numbers[low]
+            
+            if currSum == target:
                 return [low + 1, high + 1]
-            elif numbers[low] +  numbers[high] > target:
+            elif currSum > target:
                 high -= 1
             else:
                 low += 1
