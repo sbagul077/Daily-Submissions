@@ -1,16 +1,21 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        minShare = float("inf")
+        left = 0 #left = buy
+        right = 1  #right = sell
+        maxProfit = 0
         
-        result = float("-inf")
         
-        for price in prices:
-            minShare = min(minShare, price)
+        while right < len(prices):
+            if prices[left] < prices[right]:
+                profit = prices[right] - prices[left]
+                maxProfit = max(maxProfit, profit)
+            else:
+                left = right
             
-            result = max(result, price - minShare)
+            right += 1
         
-        return result
-
-#Sliding Windows
+        return maxProfit
+    
+#Sliding Window
 #Time Complexity: O(n)
 #Space Complexity: O(1)
