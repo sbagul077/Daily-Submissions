@@ -19,3 +19,6 @@ class Solution:
                 hashMap[count] = i
         
         return maximum
+    
+# TC :O(n)
+# SC: O(n)
