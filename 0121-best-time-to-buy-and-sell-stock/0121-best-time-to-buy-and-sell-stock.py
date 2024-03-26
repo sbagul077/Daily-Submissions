@@ -1,16 +1,14 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         minShare = float("inf")
-        
-        result = float("-inf")
+        maxP = float("-inf")
         
         for price in prices:
             minShare = min(minShare, price)
             
-            result = max(result, price - minShare)
+            maxP = max(maxP, price - minShare)
         
-        return result
+        return maxP
 
-#Sliding Windows
 #Time Complexity: O(n)
 #Space Complexity: O(1)
