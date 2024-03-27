@@ -18,4 +18,7 @@ class Solution:
             res += (right - left + 1)
         
         return res
-            
+        
+#Sliding Window
+#Time Complexity: O(n)
+#Space Complexity: O(1)
