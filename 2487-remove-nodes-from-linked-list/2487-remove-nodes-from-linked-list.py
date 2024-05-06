@@ -5,26 +5,30 @@
 #         self.next = next
 class Solution:
     def removeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        st = []
-        curr = head
-        
-        while curr:
-            while st and curr.val > st[-1]:
-                st.pop()
-                
-            st.append(curr.val)
-            curr = curr.next
+        def reverse(head):
+            prev, curr = None, head
+            while curr:
+                temp = curr.next
+                curr.next = prev
+                prev = curr
+                curr = temp
             
-        dummy = ListNode()
-        curr = dummy
+            return prev
         
-        for i in st:
-            curr.next = ListNode(i)
-            curr = curr.next
+        head = reverse(head)
+        curr = head
+        curr_max = curr.val
         
-        return dummy.next
-
-
-# Monotonic Stack
+        while curr.next:
+            if curr.next.val < curr_max:
+                curr.next = curr.next.next
+            else:
+                curr_max = curr.next.val
+                curr = curr.next
+        
+        
+        return reverse(head)
+    
+# Reverse Twice
 # Time Complexity: O(n)
-# Space Complexity: O(n)
+# Space Complexity: O(1)
