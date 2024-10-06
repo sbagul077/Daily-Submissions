@@ -16,7 +16,7 @@ class Solution {
         int skip = 0;
         int take = 0;
         
-        for(int i = 0; i < arr.length; i++){
+        for(int i =1; i < arr.length; i++){
             int temp = skip;
             
             skip = Math.max(skip, take);
