@@ -6,29 +6,26 @@ class Solution {
         
         int[] result = new int[nums.length];
         
-        // for(int i = 0; i < nums.length; i++){
-        //     nums[i] = 1;
-        // }
-        
+        for(int i = 0; i < nums.length; i++){
+            result[i] = 1;
+        }
+
         int rp = 1;
-        int temp = 1;
         
-        for(int i = 0; i< nums.length; i++){
-            rp = rp * temp;            
+        for(int i = 1; i< nums.length; i++){
+            rp = rp * nums[i - 1];            
             result[i] = rp;
-            temp = nums[i];
         }
         
         rp = 1;
-        temp = 1;
         
-        for(int i = nums.length - 1; i >= 0; i--){
-            rp = rp * temp;
+        for(int i = nums.length - 2; i >= 0; i--){
+            rp = rp * nums[i + 1];
             result[i] = result[i] * rp;
-            temp = nums[i];
         }
         
-        return result;            
+        return result;
+            
            
     }
 }
