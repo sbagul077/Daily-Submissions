@@ -10,15 +10,11 @@ class Solution:
         
         while low < high:
             
-            maxHeight = max(maxHeight, min(height[high], height[low]) * (high - low))
+            maxHeight = max(maxHeight, min(height[low], height[high]) * (high - low))
             
-            # print(maxHeight, min(height[high], height[low]) * (high - low))
             if height[low] <= height[high]:
                 low += 1
             else:
                 high -= 1
         
         return maxHeight
-
-#Time Complexity: O(n)
-#Space Complexity: O(1)
