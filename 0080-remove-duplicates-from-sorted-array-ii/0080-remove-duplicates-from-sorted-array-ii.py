@@ -18,4 +18,6 @@ class Solution:
                 slow += 1
         
         return slow
-        
+# Slow Pointer
+# TC: O(n)
+# SC: O(1)
