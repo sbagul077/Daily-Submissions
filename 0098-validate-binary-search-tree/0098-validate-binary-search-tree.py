@@ -5,22 +5,20 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    prev = None
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        self.prev = None
-        return self.inorder(root)
-    
-    def inorder(self, root):
         if root is None:
             return True
         
-        if not self.inorder(root.left):
+        return self.helper(root, None, None)
+    
+    def helper(self, root, minimum, maximum):
+        if root is None:
+            return True
+        
+        if maximum is not None and root.val >= maximum:
             return False
         
-        if self.prev and self.prev.val >= root.val:
+        if minimum is not None and root.val <= minimum:
             return False
-                    
-        self.prev = root
         
-        return self.inorder(root.right)
-        # print("Down", root.val)
+        return self.helper(root.left, minimum, root.val) and self.helper(root.right, root.val, maximum)
