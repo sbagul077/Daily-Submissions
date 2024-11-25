@@ -19,11 +19,12 @@ class Solution:
             return
         #logic
         
+       
+        self.helper(root.left, (sumRoot * 10) + root.val)
+        
         if root.right is None and root.left is None:
             self.result += (sumRoot * 10) + root.val
             return
-        
-        self.helper(root.left, (sumRoot * 10) + root.val)
 
         self.helper(root.right, (sumRoot * 10) + root.val)
     
