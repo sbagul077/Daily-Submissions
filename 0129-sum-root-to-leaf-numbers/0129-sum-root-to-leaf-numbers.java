@@ -15,29 +15,25 @@
  */
 class Solution {
     public int sumNumbers(TreeNode root) {
-        Stack<TreeNode> st = new Stack<>();
-        Stack<Integer> numst = new Stack<>();
-        // int[] numst = new List<>();
-        int result = 0;
-        int num = 0;
-        
-        while(root != null|| !st.isEmpty()){
-            while(root != null){
-                st.push(root);
-                num = num * 10 + root.val;
-                numst.push(num);
-                root = root.left;
-            }
-            
-            root = st.pop();
-            num = numst.pop();
-
-            if(root.right == null && root.left == null){
-                result = result + num;
-            }
-            
-            root = root.right;
+        if(root == null){
+            return 0;
         }
-        return result;
+        
+        return helper(root, 0);
+    }
+    
+    private int helper(TreeNode root, int num){
+            //base
+        if(root == null){
+            return 0;
+        }
+        
+        if(root.right == null && root.left == null){
+            return num * 10 + root.val;
+        }
+        
+        return helper(root.left, num * 10 + root.val) +  helper(root.right, num * 10 + root.val);
     }
 }
+// Time Complexity: O(n)
+// Space Complexity: O(h)
