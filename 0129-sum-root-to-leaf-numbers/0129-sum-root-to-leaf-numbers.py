@@ -6,18 +6,24 @@
 #         self.right = right
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
-        if root is None:
-            return 0
-       
-        return self.helper(root, 0)
-    
-    def helper(self, root, sumRoot):
-        #base case
-        if root is None:
-            return 0
-        #logic
+        st = []
+        numstack = []
+        num = 0
+        s = 0
+        
+        while root or st:
+            while root:
+                num = root.val + (num * 10)
+                numstack.append(num)
+                st.append(root)
+                root = root.left
+            
+            root = st.pop()
+            num = numstack.pop()
+            
+            if root.right is None and root.left is None:
+                s += num
                 
-        if root.right is None and root.left is None:
-            return (sumRoot * 10) + root.val
-
-        return self.helper(root.left, (sumRoot * 10) + root.val) + self.helper(root.right, (sumRoot * 10) + root.val)
+            root = root.right
+        
+        return s
