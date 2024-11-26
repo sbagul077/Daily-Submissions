@@ -5,23 +5,27 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    # isValid = None 
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         if root is None:
-            return True
+            return True 
         
-        # self.isValid = True
+        q = deque()
+        q.append(root.left)
+        q.append(root.right)
         
-        return self.dfs(root.left, root.right)
-        # return self.isValid
+        while q:
+            left = q.popleft()
+            right = q.popleft()
+            # print(left.val, right.val)
+            if left is None and right is None:
+                continue
                 
-    def dfs(self, left, right):
-        # base
-        if left is None and right is None:
-            return True
+            if left is None or right is None or left.val != right.val:
+                return False
+            
+            q.append(left.left)
+            q.append(right.right)
+            q.append(left.right)
+            q.append(right.left)
         
-        if left is None or right is None or left.val != right.val:
-            # self.isValid = False
-            return False
-        
-        return self.dfs(left.left, right.right) and self.dfs(left.right, right.left)
+        return True
