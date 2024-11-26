@@ -12,18 +12,17 @@ class Solution:
         s = 0
         
         while root or st:
-            while root:
+            while root:  
                 num = root.val + (num * 10)
                 numstack.append(num)
                 st.append(root)
-                root = root.left
+                root = root.left       
             
             root = st.pop()
             num = numstack.pop()
             
             if root.right is None and root.left is None:
                 s += num
-                
             root = root.right
         
         return s
