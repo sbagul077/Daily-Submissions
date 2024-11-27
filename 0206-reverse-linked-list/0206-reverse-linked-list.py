@@ -5,23 +5,17 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if head is None:
-            return
+        if head is None or head.next is None:
+            return head
         
-        prev = None
-        curr = head
-        fast = head.next
+        reverse = self.reverseList(head.next)
         
-        while fast:
-            curr.next = prev
-            prev = curr
-            curr = fast
-            fast = fast.next
-            
-        curr.next = prev
+        head.next.next = head
+        head.next = None
         
-        return curr
-    
-#3 pointers
-# TC :O(n)
-# SC: O(1). No extra space
+        
+        return reverse
+
+# Recursion
+# TC: O(n)
+# SC: O(h).Size of the stack
