@@ -5,21 +5,23 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
-            return 
-        q = []
+        if head is None:
+            return
         
-        while head.next:
-            q.append(head.val)
-            head = head.next    
-        # q.reverse()
+        prev = None
+        curr = head
+        fast = head.next
         
-        temp = head
-        i = len(q) - 1
-        # print(temp.val, head.val, i)
-        while i >= 0:
-            temp.next = ListNode(q[i])
-            temp = temp.next
-            i -= 1
-
-        return head
+        while fast:
+            curr.next = prev
+            prev = curr
+            curr = fast
+            fast = fast.next
+            
+        curr.next = prev
+        
+        return curr
+    
+#3 pointers
+# TC :O(n)
+# SC: O(1). No extra space
