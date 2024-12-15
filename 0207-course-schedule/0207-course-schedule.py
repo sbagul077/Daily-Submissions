@@ -1,38 +1,37 @@
 class Solution:
-    path = []
-    visited = []
-    adj = {}
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        self.path = [False] * numCourses
-        self.visited  = [False] * numCourses
-        self.adj = {}
+        adj = dict()
         
-        for edge in prerequisites:
-            if edge[1] not in self.adj:
-                self.adj[edge[1]] = []
-            self.adj[edge[1]].append(edge[0])
+        indegrees = [0] * numCourses
+        
+        for num in prerequisites:
+            if num[1] not in adj.keys():
+                adj[num[1]] = []
+            
+            adj[num[1]].append(num[0])
+            
+            indegrees[num[0]] += 1
+            
+        q = deque()
+        count = 0
         
         for i in range(numCourses):
-            if not self.visited[i] and self.hasCycle(i):
-                return False
+            if indegrees[i] == 0:
+                q.append(i)
+                count += 1
         
-        return True
-    
-    def hasCycle(self, course):
-        if self.path[course]:
-            return True
-        if self.visited[course]:
+        if len(q) == 0:
             return False
         
-        self.visited[course] = True
-        self.path[course] = True
+        while q:
+            curr = q.popleft()
+            li = adj.get(curr)
+            if li:
+                for node in li:
+                    indegrees[node] -= 1
+
+                    if indegrees[node] == 0:
+                        q.append(node)
+                        count += 1
         
-        children = self.adj.get(course)
-        
-        if children:
-            for i in children:
-                if self.hasCycle(i):
-                    return True
-        
-        self.path[course] = False
-        return False
+        return count == numCourses
