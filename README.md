@@ -15,4 +15,12 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
+## Array
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
