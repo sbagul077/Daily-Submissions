@@ -19,6 +19,7 @@ Collection of LeetCode questions
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 ## Backtracking
 |  |
@@ -29,4 +30,12 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
+## Hash Table
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
