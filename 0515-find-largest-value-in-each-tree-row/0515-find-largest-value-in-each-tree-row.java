@@ -15,39 +15,37 @@
  */
 class Solution {
     public List<Integer> largestValues(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
         if(root == null){
-            return new ArrayList<Integer>();
+            return result;
         }
-        
-        List<Integer> result = new ArrayList<Integer>();
+
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        
-        while (!q.isEmpty()){
-            int row_max = Integer.MIN_VALUE;
+
+        while(!q.isEmpty()){
             int size = q.size();
-            
+            int max = Integer.MIN_VALUE;
+
             for(int i = 0; i < size; i++){
-                TreeNode curr = q.remove();
-                row_max = Math.max(row_max, curr.val);
-                
-                if(curr.left != null){
-                    q.add(curr.left);
+                TreeNode currRoot = q.poll();
+
+                if(max < currRoot.val){
+                    max = currRoot.val;
                 }
-                
-                if(curr.right != null){
-                    q.add(curr.right);
+
+                if(currRoot.left != null){
+                    q.add(currRoot.left);
+                }
+
+                if(currRoot.right != null){
+                    q.add(currRoot.right);
                 }
             }
-            result.add(row_max);
-                
+            result.add(max);
+            
         }
-        
         return result;
+
     }
 }
-
-
-//BFS
-//Time Complexity: O(n)
-// Space Complexity: O(n)
