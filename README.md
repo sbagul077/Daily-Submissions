@@ -6,6 +6,7 @@ Collection of LeetCode questions
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 ## Stack
@@ -21,10 +22,12 @@ Collection of LeetCode questions
 | ------- |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 ## Backtracking
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 ## Math
 |  |
@@ -38,6 +41,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
+| [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 ## Tree
 |  |
 | ------- |
@@ -45,6 +49,7 @@ Collection of LeetCode questions
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 ## Breadth-First Search
 |  |
