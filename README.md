@@ -10,6 +10,7 @@ Collection of LeetCode questions
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
+| [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Stack
 |  |
 | ------- |
@@ -24,6 +25,7 @@ Collection of LeetCode questions
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
+| [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Backtracking
 |  |
 | ------- |
@@ -39,6 +41,7 @@ Collection of LeetCode questions
 | ------- |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
+| [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Matrix
 |  |
 | ------- |
@@ -69,4 +72,9 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
+| [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+## Sorting
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 <!---LeetCode Topics End-->
