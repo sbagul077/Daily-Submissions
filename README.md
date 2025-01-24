@@ -26,6 +26,7 @@ Collection of LeetCode questions
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
+| [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Backtracking
 |  |
@@ -82,6 +83,7 @@ Collection of LeetCode questions
 ## Sorting
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Queue
 |  |
@@ -99,4 +101,16 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
