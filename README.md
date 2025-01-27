@@ -96,6 +96,7 @@ Collection of LeetCode questions
 ## Linked List
 |  |
 | ------- |
+| [0061-rotate-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
 ## Doubly-Linked List
 |  |
@@ -113,4 +114,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+## Two Pointers
+|  |
+| ------- |
+| [0061-rotate-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0061-rotate-list) |
 <!---LeetCode Topics End-->
