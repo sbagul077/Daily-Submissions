@@ -19,6 +19,7 @@ Collection of LeetCode questions
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 ## Array
 |  |
@@ -37,6 +38,7 @@ Collection of LeetCode questions
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 ## Hash Table
 |  |
