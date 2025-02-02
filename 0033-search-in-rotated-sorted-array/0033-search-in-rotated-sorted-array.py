@@ -5,19 +5,20 @@ class Solution:
         
         low = 0
         high = len(nums) - 1
-        
+
         while low <= high:
             mid = low + (high - low) // 2
-            
+
             if nums[mid] == target:
                 return mid
-            
+
+            #left side check
             if nums[low] <= nums[mid]:
-                if nums[low] <= target <= nums[mid]:
+                if nums[low] <= target<= nums[mid]:
                     high = mid - 1
                 else:
                     low = mid + 1
-            
+            #right side check
             else:
                 if nums[mid] <= target <= nums[high]:
                     low = mid + 1
@@ -25,6 +26,3 @@ class Solution:
                     high = mid - 1
         
         return -1
-
-# TC : O(log n)
-# SC : O(1)
