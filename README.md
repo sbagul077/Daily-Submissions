@@ -31,6 +31,7 @@ Collection of LeetCode questions
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
 ## Backtracking
 |  |
 | ------- |
