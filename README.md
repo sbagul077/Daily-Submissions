@@ -11,6 +11,7 @@ Collection of LeetCode questions
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Stack
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Collection of LeetCode questions
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/sbagul077/Daily-Submissions/tree/master/0359-logger-rate-limiter) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Matrix
 |  |
 | ------- |
@@ -143,4 +145,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+## Counting
+|  |
+| ------- |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 <!---LeetCode Topics End-->
