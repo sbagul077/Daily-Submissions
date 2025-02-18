@@ -20,8 +20,7 @@ class Solution:
             count = hashMap.get(key)
             while count > 0:
                 result.append(key)
-                count -= 1
-        
+                count -= 1        
      
         return "".join(result)
             
