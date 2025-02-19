@@ -171,4 +171,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+## Database
+|  |
+| ------- |
+| [2127-employees-whose-manager-left-the-company](https://github.com/sbagul077/Daily-Submissions/tree/master/2127-employees-whose-manager-left-the-company) |
 <!---LeetCode Topics End-->
