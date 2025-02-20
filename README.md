@@ -179,5 +179,6 @@ Collection of LeetCode questions
 ## Database
 |  |
 | ------- |
+| [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/sbagul077/Daily-Submissions/tree/master/2127-employees-whose-manager-left-the-company) |
 <!---LeetCode Topics End-->
