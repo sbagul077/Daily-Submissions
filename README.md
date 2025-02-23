@@ -181,6 +181,7 @@ Collection of LeetCode questions
 ## Database
 |  |
 | ------- |
+| [0185-department-top-three-salaries](https://github.com/sbagul077/Daily-Submissions/tree/master/0185-department-top-three-salaries) |
 | [0585-investments-in-2016](https://github.com/sbagul077/Daily-Submissions/tree/master/0585-investments-in-2016) |
 | [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/sbagul077/Daily-Submissions/tree/master/2127-employees-whose-manager-left-the-company) |
