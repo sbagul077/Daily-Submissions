@@ -31,6 +31,7 @@ Collection of LeetCode questions
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
@@ -138,6 +140,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
@@ -150,6 +153,7 @@ Collection of LeetCode questions
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0061-rotate-list) |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 ## Data Stream
 |  |
@@ -185,4 +189,12 @@ Collection of LeetCode questions
 | [0585-investments-in-2016](https://github.com/sbagul077/Daily-Submissions/tree/master/0585-investments-in-2016) |
 | [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/sbagul077/Daily-Submissions/tree/master/2127-employees-whose-manager-left-the-company) |
+## Greedy
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 <!---LeetCode Topics End-->
