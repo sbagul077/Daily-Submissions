@@ -10,6 +10,7 @@ Collection of LeetCode questions
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -59,6 +60,7 @@ Collection of LeetCode questions
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/sbagul077/Daily-Submissions/tree/master/0359-logger-rate-limiter) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
@@ -177,6 +179,7 @@ Collection of LeetCode questions
 ## Sliding Window
 |  |
 | ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 ## Hash Function
 |  |
