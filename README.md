@@ -49,6 +49,7 @@ Collection of LeetCode questions
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/sbagul077/Daily-Submissions/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
