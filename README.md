@@ -6,6 +6,7 @@ Collection of LeetCode questions
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0061-rotate-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0061-rotate-list) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
@@ -204,4 +206,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
