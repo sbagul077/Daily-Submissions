@@ -15,11 +15,13 @@ Collection of LeetCode questions
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Stack
 |  |
 | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Recursion
 |  |
 | ------- |
@@ -212,4 +214,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
