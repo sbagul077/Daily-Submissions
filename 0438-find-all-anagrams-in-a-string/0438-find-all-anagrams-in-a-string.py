@@ -1,41 +1,30 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        result = []
-
-        if(len(p) == 0 or len(s) == 0 or s is None or p is None):
-            return result
-
         hashMap = dict()
-        
+        result = []
         for char in p:
             hashMap[char] = hashMap.get(char, 0) + 1
-        j = 0
-        match_chars = 0
+        
+        match = 0
+        for i in range(len(s)):
+            char = s[i]
 
-        for i in range(0, len(s)):
-            incoming = s[i]
-            if incoming in hashMap.keys():
-                cnt = hashMap.get(incoming)
+            if char in hashMap.keys():
+                cnt = hashMap.get(char)
                 cnt -= 1
-                hashMap[incoming] = cnt
-                if cnt == 0:
-                    match_chars += 1
-
+                hashMap[char] = cnt
+                if(cnt == 0):
+                    match += 1
             
             if i >= len(p):
-                outgoing = s[i - len(p)]
-                if outgoing in hashMap.keys():
-                    cnt = hashMap.get(outgoing)
+                if s[i - len(p)] in hashMap.keys():
+                    cnt = hashMap.get(s[i - len(p)])
                     cnt += 1
-                    hashMap[outgoing] = cnt
+                    hashMap[s[i - len(p)]] = cnt
                     if cnt == 1:
-                        match_chars -= 1
-
-            if len(hashMap) == match_chars:
-                result.append(i - len(p) + 1)           
+                        match -= 1
+            
+            if match == len(hashMap):
+                result.append(i - len(p) + 1)
         
         return result
-
-# // Sliding Window
-# // Time Complexity:O(m+n)
-# //Space Complexity: O(1)
