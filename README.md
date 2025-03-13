@@ -207,6 +207,7 @@ Collection of LeetCode questions
 | [0585-investments-in-2016](https://github.com/sbagul077/Daily-Submissions/tree/master/0585-investments-in-2016) |
 | [1452-restaurant-growth](https://github.com/sbagul077/Daily-Submissions/tree/master/1452-restaurant-growth) |
 | [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
+| [1565-evaluate-boolean-expression](https://github.com/sbagul077/Daily-Submissions/tree/master/1565-evaluate-boolean-expression) |
 | [1664-find-users-with-valid-e-mails](https://github.com/sbagul077/Daily-Submissions/tree/master/1664-find-users-with-valid-e-mails) |
 | [1670-patients-with-a-condition](https://github.com/sbagul077/Daily-Submissions/tree/master/1670-patients-with-a-condition) |
 | [1811-fix-names-in-a-table](https://github.com/sbagul077/Daily-Submissions/tree/master/1811-fix-names-in-a-table) |
