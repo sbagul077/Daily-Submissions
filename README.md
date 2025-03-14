@@ -205,6 +205,7 @@ Collection of LeetCode questions
 | [0185-department-top-three-salaries](https://github.com/sbagul077/Daily-Submissions/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/sbagul077/Daily-Submissions/tree/master/0196-delete-duplicate-emails) |
 | [0585-investments-in-2016](https://github.com/sbagul077/Daily-Submissions/tree/master/0585-investments-in-2016) |
+| [1339-team-scores-in-football-tournament](https://github.com/sbagul077/Daily-Submissions/tree/master/1339-team-scores-in-football-tournament) |
 | [1452-restaurant-growth](https://github.com/sbagul077/Daily-Submissions/tree/master/1452-restaurant-growth) |
 | [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
 | [1565-evaluate-boolean-expression](https://github.com/sbagul077/Daily-Submissions/tree/master/1565-evaluate-boolean-expression) |
