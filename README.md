@@ -86,6 +86,7 @@ Collection of LeetCode questions
 ## Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -96,6 +97,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
+| [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -110,6 +112,7 @@ Collection of LeetCode questions
 ## Binary Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -247,6 +250,7 @@ Collection of LeetCode questions
 ## Binary Search Tree
 |  |
 | ------- |
+| [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 <!---LeetCode Topics End-->
