@@ -19,6 +19,7 @@ Collection of LeetCode questions
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Stack
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Collection of LeetCode questions
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Backtracking
 |  |
 | ------- |
@@ -77,6 +79,7 @@ Collection of LeetCode questions
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Matrix
 |  |
 | ------- |
@@ -253,4 +256,12 @@ Collection of LeetCode questions
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Graph
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Topological Sort
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 <!---LeetCode Topics End-->
