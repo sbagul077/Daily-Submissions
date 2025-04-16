@@ -5,41 +5,34 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    first = 0
-    second = 0
+    first = None
+    second = None
     flag = False
-    prev = 0
+    prev = None
     def recoverTree(self, root: Optional[TreeNode]) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
+        self.inorder(root)
+        # print(self.first, self.second)
+        temp = self.first.val
+        self.first.val = self.second.val
+        self.second.val = temp
+
+    def inorder(self, root):
+        #base
         if root is None:
             return 
         
-        self.inorder(root)
-        print(self.first.val, self.second.val)
-        temp = self.first.val
-        self.first.val = self.second.val
-        self.second.val = temp       
-    
-    def inorder(self, root):
-        if root is None:
-            return
-        
+        # logic
         self.inorder(root.left)
-        
-        if self.prev and self.prev.val > root.val:
+        if self.prev is not None and self.prev.val > root.val:
             if not self.flag:
-                self.first = self.prev
+                self.first= self.prev
                 self.second = root
                 self.flag = True
             else:
                 self.second = root
         self.prev = root
+        # print(self.prev.val)
         self.inorder(root.right)
-            
-        
-#inorder recursion
-# Time Complexity : O(n)
-# Space Complexity: O(1)
-            
