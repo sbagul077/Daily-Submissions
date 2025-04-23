@@ -15,6 +15,7 @@ Collection of LeetCode questions
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -80,6 +81,7 @@ Collection of LeetCode questions
 | [0359-logger-rate-limiter](https://github.com/sbagul077/Daily-Submissions/tree/master/0359-logger-rate-limiter) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 ## Queue
@@ -192,6 +195,7 @@ Collection of LeetCode questions
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 ## Quickselect
 |  |
 | ------- |
@@ -224,6 +228,7 @@ Collection of LeetCode questions
 ## Counting
 |  |
 | ------- |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Sliding Window
 |  |
@@ -254,6 +259,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+| [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 ## Prefix Sum
 |  |
 | ------- |
