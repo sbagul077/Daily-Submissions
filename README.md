@@ -51,6 +51,7 @@ Collection of LeetCode questions
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
@@ -84,6 +85,7 @@ Collection of LeetCode questions
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -160,6 +162,7 @@ Collection of LeetCode questions
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
+| [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 ## Queue
 |  |
