@@ -68,6 +68,7 @@ Collection of LeetCode questions
 | ------- |
 | [0007-reverse-integer](https://github.com/sbagul077/Daily-Submissions/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
 | [0227-basic-calculator-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0227-basic-calculator-ii) |
 | [0273-integer-to-english-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
@@ -225,6 +226,7 @@ Collection of LeetCode questions
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
@@ -289,4 +291,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
