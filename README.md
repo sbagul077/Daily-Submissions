@@ -39,6 +39,7 @@ Collection of LeetCode questions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
