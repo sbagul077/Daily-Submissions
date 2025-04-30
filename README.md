@@ -58,6 +58,7 @@ Collection of LeetCode questions
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions
 | [0227-basic-calculator-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0227-basic-calculator-ii) |
 | [0273-integer-to-english-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0273-integer-to-english-words) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 ## Hash Table
 |  |
