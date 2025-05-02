@@ -3,6 +3,7 @@ class Solution:
         hashMap = defaultdict(list)
 
         for (t, user, web) in sorted(zip(timestamp, username, website)):
+            print(t, user, web)
             hashMap[user].append(web)
 
         scores = defaultdict(int)
