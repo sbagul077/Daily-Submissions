@@ -36,6 +36,7 @@ Collection of LeetCode questions
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sbagul077/Daily-Submissions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
 | [0273-integer-to-english-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sbagul077/Daily-Submissions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/sbagul077/Daily-Submissions/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
@@ -190,6 +192,7 @@ Collection of LeetCode questions
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sbagul077/Daily-Submissions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
