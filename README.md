@@ -58,6 +58,7 @@ Collection of LeetCode questions
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -307,6 +309,7 @@ Collection of LeetCode questions
 ## Graph
 |  |
 | ------- |
+| [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Topological Sort
 |  |
