@@ -54,6 +54,7 @@ Collection of LeetCode questions
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Tree
 |  |
@@ -139,11 +141,13 @@ Collection of LeetCode questions
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
+| [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 ## Binary Tree
 |  |
