@@ -149,6 +149,7 @@ Collection of LeetCode questions
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [1142-minimum-knight-moves](https://github.com/sbagul077/Daily-Submissions/tree/master/1142-minimum-knight-moves) |
 ## Binary Tree
 |  |
 | ------- |
