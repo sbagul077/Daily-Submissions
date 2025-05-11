@@ -1,33 +1,43 @@
 class Solution:
     i = 0
     def decodeString(self, s: str) -> str:
-        if s is None or len(s) == 0:
-            return ""
         
-        num = 0
+        numSt = []
+        strSt = []
+        # strSt.append("")
         curr = [""]
+        i = 0
+        num = 0
+        # result = ""
 
-        while self.i < len(s):
-            char = s[self.i]
+        for i in range(len(s)):
+            char = s[i]
+            # i += 1
             if char.isdigit():
-                num = num * 10 + int (char)
-                self.i += 1
-            elif char == '[':
-                self.i += 1
-                decoded = self.decodeString(s)
-                newStr = []
-                for k in range(num):
-                    newStr.append(decoded)
-                curr.append("".join(newStr))
+                num = num * 10 + int(char)
+            elif char == "[":
+                # print(num)
+                numSt.append(num)
+                strSt.append("".join(curr))
+                curr = [""]
                 num = 0
+                # print(numSt, strSt)
             elif char == "]":
-                self.i += 1
-                return "".join(curr)
+                newStr = []
+                times = numSt.pop()
+                # print(times)
+                for i in range(times):
+                    newStr.append("".join(curr))  
+                curr = [strSt.pop() + "".join(newStr)]
             else:
                 curr.append(char)
-                self.i += 1
+            
+            i += 1
+
         
         return "".join(curr)
-            
+
+
+
 
 
