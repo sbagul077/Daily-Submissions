@@ -9,34 +9,47 @@ class Solution:
     pathP = []
     pathQ = []
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        if root is None or p.val == root.val or q.val == root.val:
+        
+        if root is None or p.val is None or q.val is None:
             return root
         
-        self.backtrack(root, p, q, path = [])
-        
+        self.pathP = []
+        self.pathQ = []
+
+        self.dfs(root, p, q, path= list())
+        # print(self.pathP)
+        # print(self.pathQ)
         for i in range(len(self.pathP)):
             if self.pathP[i].val != self.pathQ[i].val:
-                return self.pathP[i-1]
+                return self.pathP[i -1]
+        
         return None
     
-    def backtrack(self, root, p, q, path):
+    def dfs(self, root, p, q, path):
         #base case
         if root is None:
-            return 
-        
+            return
+
         if root.val == p.val:
+            # print("this")
             self.pathP = path.copy()
-            self.pathP.append(p)
-            self.pathP.append(p)
-        
-        if root.val == q.val:
+            self.pathP.append(root)
+            self.pathP.append(root)
+            # print(self.pathP)
+
+
+        elif root.val == q.val:
             self.pathQ = path.copy()
-            self.pathQ.append(q)
-            self.pathQ.append(q)
-        
-        #action
-        path.append(root)
+            self.pathQ.append(root)
+            self.pathQ.append(root)
+
+        #logic
+        # print(path)
         #recurse
-        self.backtrack(root.left, p, q, path)
-        self.backtrack(root.right, p, q, path)
-        path.pop()
+        path.append(root)
+        self.dfs(root.left, p, q, path)
+        #backtrack
+        
+        self.dfs(root.right, p, q, path)
+        path.pop(-1)
+
