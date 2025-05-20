@@ -33,6 +33,7 @@ Collection of LeetCode questions
 | [0227-basic-calculator-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0227-basic-calculator-ii) |
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
+| [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Recursion
@@ -64,6 +65,7 @@ Collection of LeetCode questions
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
+| [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
@@ -372,6 +374,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sbagul077/Daily-Submissions/tree/master/0042-trapping-rain-water) |
+| [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 ## Counting Sort
 |  |
