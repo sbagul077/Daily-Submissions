@@ -144,6 +144,7 @@ Collection of LeetCode questions
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -158,6 +159,7 @@ Collection of LeetCode questions
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -169,6 +171,7 @@ Collection of LeetCode questions
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
+| [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [1142-minimum-knight-moves](https://github.com/sbagul077/Daily-Submissions/tree/master/1142-minimum-knight-moves) |
@@ -180,6 +183,7 @@ Collection of LeetCode questions
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
