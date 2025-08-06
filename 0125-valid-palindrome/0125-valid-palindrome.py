@@ -1,23 +1,23 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
+        if s is None or len(s) == 0:
+            return True
+        
         left = 0
         right = len(s) - 1
-        
+
         while left <= right:
-            if not s[left].isalpha() and not s[left].isdigit():
+            charLeft = s[left]
+            charRight = s[right]
+
+            if not charLeft.isalpha() and not charLeft.isnumeric():
                 left += 1
-                continue
-            elif not s[right].isalpha() and not s[right].isdigit():
+            elif not charRight.isalpha() and not charRight.isnumeric():
                 right -= 1
-                continue
+            elif charLeft.lower() != charRight.lower():
+                return False
             else:
-                if s[left].lower() != s[right].lower():
-                    return False
-            left += 1
-            right -= 1
+                left += 1
+                right -= 1
         
         return True
-
-# Two pointers
-# Time Complexity: O(n)
-#Space Complexity: O(n)
