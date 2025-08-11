@@ -59,6 +59,7 @@ Collection of LeetCode questions
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0189-rotate-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0189-rotate-array) |
@@ -312,6 +313,7 @@ Collection of LeetCode questions
 | [0042-trapping-rain-water](https://github.com/sbagul077/Daily-Submissions/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
