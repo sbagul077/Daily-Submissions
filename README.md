@@ -8,6 +8,7 @@ Collection of LeetCode questions
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/sbagul077/Daily-Submissions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
@@ -56,6 +57,7 @@ Collection of LeetCode questions
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 | [0042-trapping-rain-water](https://github.com/sbagul077/Daily-Submissions/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
@@ -117,6 +119,7 @@ Collection of LeetCode questions
 | [0001-two-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/sbagul077/Daily-Submissions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
@@ -225,6 +228,7 @@ Collection of LeetCode questions
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
