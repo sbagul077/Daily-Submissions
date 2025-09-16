@@ -85,6 +85,7 @@ Collection of LeetCode questions
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0739-daily-temperatures](https://github.com/sbagul077/Daily-Submissions/tree/master/0739-daily-temperatures) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 | [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -222,6 +224,7 @@ Collection of LeetCode questions
 | [0359-logger-rate-limiter](https://github.com/sbagul077/Daily-Submissions/tree/master/0359-logger-rate-limiter) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 ## Trie
 |  |
 | ------- |
@@ -267,6 +270,7 @@ Collection of LeetCode questions
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -347,6 +351,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
+| [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 ## Database
 |  |
 | ------- |
