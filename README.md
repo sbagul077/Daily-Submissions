@@ -61,6 +61,7 @@ Collection of LeetCode questions
 | [0042-trapping-rain-water](https://github.com/sbagul077/Daily-Submissions/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
+| [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
+| [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
@@ -317,6 +319,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0033-search-in-rotated-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
