@@ -73,6 +73,7 @@ Collection of LeetCode questions
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/sbagul077/Daily-Submissions/tree/master/0238-product-of-array-except-self) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -154,6 +155,7 @@ Collection of LeetCode questions
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -283,6 +285,7 @@ Collection of LeetCode questions
 | ------- |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -321,6 +324,7 @@ Collection of LeetCode questions
 | [0033-search-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
