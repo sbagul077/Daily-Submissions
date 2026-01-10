@@ -1,30 +1,29 @@
 class Solution {
     public int findPairs(int[] nums, int k) {
-        Arrays.sort(nums);
-        int slow = 0;
-        int fast = 1;
-        int result = 0;
-        int n = nums.length;
-        while(fast < n){
-            int curr = nums[fast] - nums[slow];
-            
-            if (curr > k){
-                slow++;
-            }
-            else if(curr < k || slow == fast){
-                fast++;
-            }else{
-                result++;
-                slow ++;
-                fast++;
-                
-                while(fast < n && nums[fast] == nums[fast - 1]){
-                    fast++;
-                }
-            }
-            
-        }
+        HashMap<Integer, Integer> map = new HashMap<>();
         
-        return result;
+        HashSet<List<Integer>> result = new HashSet<>();
+        
+        for(int i = 0; i < nums.length; i++){
+            map.put(nums[i], i);
+        }
+
+        for(int i = 0; i < nums.length; i++){
+            int complement = nums[i] - k;
+            if(map.containsKey(complement) && map.get(complement) != i){
+                Integer[] temp = {nums[i], complement};
+                Arrays.sort(temp);
+                result.add(Arrays.asList(temp));
+            }
+
+            complement = nums[i] + k;
+            if(map.containsKey(complement) && map.get(complement) != i){
+                Integer[] temp = {nums[i], complement};
+                Arrays.sort(temp);
+                result.add(Arrays.asList(temp));
+            }
+        }
+
+        return result.size();
     }
 }
