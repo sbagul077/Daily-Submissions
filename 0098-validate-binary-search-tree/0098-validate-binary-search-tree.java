@@ -32,10 +32,10 @@ class Solution {
         if(min != null && root.val <= min) return false;
         //logic
 
-        boolean case1 = helper(root.left, min, root.val);
+        // boolean case1 = ;
 
-        boolean case2 = helper(root.right, root.val, max);
+        // boolean case2 = ;
 
-        return case1 & case2;
+        return helper(root.left, min, root.val) & helper(root.right, root.val, max);
     }
 }
