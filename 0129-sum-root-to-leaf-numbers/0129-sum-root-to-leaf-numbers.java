@@ -14,26 +14,28 @@
  * }
  */
 class Solution {
+
+    int result;
     public int sumNumbers(TreeNode root) {
         if(root == null){
             return 0;
         }
-        
-        return helper(root, 0);
+
+        return inorder(root, 0);
+        // return result;
     }
-    
-    private int helper(TreeNode root, int num){
-            //base
+
+    private int inorder(TreeNode root, Integer rootSum){
+        //base
         if(root == null){
             return 0;
         }
         
-        if(root.right == null && root.left == null){
-            return num * 10 + root.val;
+        if(root.left == null && root.right == null){
+            return  (rootSum * 10) + root.val;
         }
-        
-        return helper(root.left, num * 10 + root.val) +  helper(root.right, num * 10 + root.val);
+
+        //logic
+        return inorder(root.left, rootSum * 10 + root.val) + inorder(root.right, rootSum * 10 + root.val);
     }
 }
-// Time Complexity: O(n)
-// Space Complexity: O(h)
