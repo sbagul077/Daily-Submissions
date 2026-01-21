@@ -5,31 +5,27 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    result = []
-    path = []
-    target = 0
+    result = list()
+    path = list()
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
-        self.result = []
+        self.result = list()
+        self.path = list()
         self.target = targetSum
-        self.path = []
-        
         self.helper(root, 0)
         return self.result
     
-    def helper(self,root, total):
-        #base
+    def helper(self, root, currSum):
         if root is None:
-            return 
+            return
         
         self.path.append(root.val)
-        total = total + root.val
-        
-        if root.right is None and root.left is None:
-            if total == self.target:
-                self.result.append(self.path.copy())            
-        
-        self.helper(root.left, total)
-        self.helper(root.right, total)
-        self.path.pop(-1)
+        currSum += root.val
 
-           
+        if not root.left and not root.right and self.target == currSum:
+            self.result.append(self.path.copy())
+
+        self.helper(root.left, currSum)
+        self.helper(root.right, currSum)
+        # print(self.path, "Before")
+        self.path.pop()
+        # print(self.path, "After")
