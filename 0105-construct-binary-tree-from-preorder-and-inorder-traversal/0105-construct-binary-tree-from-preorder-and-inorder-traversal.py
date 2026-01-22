@@ -14,9 +14,9 @@ class Solution:
         for index, value in enumerate(inorder):
             self.hashMap[value] = index
 
-        return self.helper(preorder, inorder, 0, len(inorder) - 1)
+        return self.helper(preorder, 0, len(inorder) - 1)
     
-    def helper(self, preorder, inorder, start, end):
+    def helper(self, preorder, start, end):
         #base
         if start > end:
             return None
@@ -25,6 +25,8 @@ class Solution:
         rootIdx = self.hashMap.get(preorder[self.idx])
         self.idx += 1
 
-        root.left = self.helper(preorder, inorder, start, rootIdx - 1)
-        root.right = self.helper(preorder, inorder, rootIdx + 1, end)
+        root.left = self.helper(preorder, start, rootIdx - 1)
+        root.right = self.helper(preorder, rootIdx + 1, end)
         return root
+
+    
