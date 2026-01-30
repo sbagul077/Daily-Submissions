@@ -64,6 +64,7 @@ Collection of LeetCode questions
 | [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
@@ -126,6 +127,7 @@ Collection of LeetCode questions
 | [0003-longest-substring-without-repeating-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/sbagul077/Daily-Submissions/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
@@ -165,6 +167,7 @@ Collection of LeetCode questions
 | [0094-binary-tree-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
@@ -209,6 +212,7 @@ Collection of LeetCode questions
 | [0094-binary-tree-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0099-recover-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0099-recover-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
@@ -284,6 +288,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 ## Heap (Priority Queue)
