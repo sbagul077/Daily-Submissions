@@ -1,22 +1,18 @@
 class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
-        int n = letters.length;
-        int low = 0;
-        int high = n - 1;
-        char result = letters[0];
+        char[] arr = new char[26];
 
-        while(low <= high){
-            int mid = low + (high - low) / 2;
+        for(int i = 0; i < letters.length; i++){
+            // System.out.println(letters[i] - 'a');
+            arr[letters[i] - 'a'] = letters[i];
+        }
 
-            if(target < letters[mid]){
-                result = letters[mid];
-                high = mid - 1;
-            }
-            else{
-                low = mid + 1;
+        for(int i = 0; i < 26; i++){
+            if(arr[i] != '\u0000' && target < arr[i]){
+                return arr[i];
             }
         }
 
-        return result;
+        return letters[0];        
     }
 }
