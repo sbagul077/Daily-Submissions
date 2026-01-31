@@ -7,25 +7,22 @@
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         if root is None:
-            return True 
+            return True
+
+        return self.helper(root.left, root.right)
+    
+    def helper(self, left, right):
+        #base
+        if left is None and right is None:
+            return True
+
+
+        #logic
+        if left is None or right is None or left.val != right.val:
+            return False
         
-        q = deque()
-        q.append(root.left)
-        q.append(root.right)
-        
-        while q:
-            left = q.popleft()
-            right = q.popleft()
-            # print(left.val, right.val)
-            if left is None and right is None:
-                continue
-                
-            if left is None or right is None or left.val != right.val:
-                return False
-            
-            q.append(left.left)
-            q.append(right.right)
-            q.append(left.right)
-            q.append(right.left)
-        
-        return True
+        return self.helper(left.left, right.right) and self.helper(left.right, right.left)
+
+# DFS
+# Time Complexity: O(n)
+# @Space Complexity: O(n)
