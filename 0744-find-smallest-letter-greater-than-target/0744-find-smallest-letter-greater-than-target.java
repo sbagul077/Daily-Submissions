@@ -1,21 +1,22 @@
 class Solution {
     public char nextGreatestLetter(char[] letters, char target) {
-        int[] primes =  {2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
-                            31, 37, 41, 43, 47, 53, 59, 61, 67, 71,
-                            73, 79, 83, 89, 97, 101};
-        
-        char result = target;
-        for(int i = 0; i< letters.length; i++){
-            char currChar = letters[i];
-            if(target - currChar < 0){
-                result = currChar;
-                break;
+        int n = letters.length;
+        int low = 0;
+        int high = n - 1;
+        char result = letters[0];
+
+        while(low <= high){
+            int mid = low + (high - low) / 2;
+
+            if(target < letters[mid]){
+                result = letters[mid];
+                high = mid - 1;
+            }
+            else{
+                low = mid + 1;
             }
         }
 
-        if(result == target){
-            result = letters[0];
-        }
         return result;
     }
 }
