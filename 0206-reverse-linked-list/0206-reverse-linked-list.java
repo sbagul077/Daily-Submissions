@@ -13,20 +13,14 @@ class Solution {
         if(head == null || head.next == null){
             return head;
         }
-        
-        ListNode prev = null;
-        ListNode curr = head;
 
-        while(curr != null){
-            ListNode fast = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = fast;
-        }
+        ListNode reverse = reverseList(head.next);
 
-        return prev;        
+        // System.out.println(head.val);
+
+        head.next.next = head;
+        // System.out.println(head.val);
+        head.next = null;
+        return reverse;
     }
 }
-// Using 3 pointers
-// Time Complexity: O(n)
-// Space Complexity: O(1)
