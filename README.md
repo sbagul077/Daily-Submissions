@@ -47,6 +47,7 @@ Collection of LeetCode questions
 | ------- |
 | [0002-add-two-numbers](https://github.com/sbagul077/Daily-Submissions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/sbagul077/Daily-Submissions/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0206-reverse-linked-list) |
 | [0273-integer-to-english-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0273-integer-to-english-words) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 ## Array
@@ -281,6 +282,7 @@ Collection of LeetCode questions
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/sbagul077/Daily-Submissions/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
