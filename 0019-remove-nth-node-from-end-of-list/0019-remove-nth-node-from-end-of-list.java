@@ -10,22 +10,24 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if(head == null || head.next == null){
+        if(head == null){
             return null;
         }
-        ListNode dummy = new ListNode(-1, head);
 
+        ListNode dummy =  new ListNode(-1);
+        dummy.next = head;
+        ListNode fast = dummy;
         ListNode slow = dummy;
-        ListNode fast = head;
+        int count = 0;
 
-        while(n > 0){
+        while(count <= n){
             fast = fast.next;
-            n -= 1;
+            count +=1;
         }
 
         while(fast != null){
-            fast = fast.next;
             slow = slow.next;
+            fast = fast.next;
         }
 
         slow.next = slow.next.next;
@@ -33,3 +35,7 @@ class Solution {
         return dummy.next;
     }
 }
+
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
