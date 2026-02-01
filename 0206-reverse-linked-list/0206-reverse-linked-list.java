@@ -13,27 +13,20 @@ class Solution {
         if(head == null || head.next == null){
             return head;
         }
-        Stack<ListNode> st = new Stack<ListNode>();
-
-        ListNode curr = head.next;
         
+        ListNode prev = null;
+        ListNode curr = head;
+
         while(curr != null){
-            head.next = null;
-            st.push(head);
-            head = curr;
-            curr = curr.next;
+            ListNode fast = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = fast;
         }
 
-        curr = head;
-
-        while(!st.isEmpty()){
-            curr.next = st.pop();
-            curr = curr.next;
-        }
-
-        return head;        
+        return prev;        
     }
 }
-// Using Stack
+// Using 3 pointers
 // Time Complexity: O(n)
-// Space Complexity: O(n)
+// Space Complexity: O(1)
