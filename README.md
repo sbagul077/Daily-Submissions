@@ -138,6 +138,7 @@ Collection of LeetCode questions
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0142-linked-list-cycle-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sbagul077/Daily-Submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/sbagul077/Daily-Submissions/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
@@ -292,6 +293,7 @@ Collection of LeetCode questions
 | [0142-linked-list-cycle-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/sbagul077/Daily-Submissions/tree/master/0146-lru-cache) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sbagul077/Daily-Submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
@@ -335,6 +337,7 @@ Collection of LeetCode questions
 | [0125-valid-palindrome](https://github.com/sbagul077/Daily-Submissions/tree/master/0125-valid-palindrome) |
 | [0142-linked-list-cycle-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0143-reorder-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/sbagul077/Daily-Submissions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0189-rotate-array) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
