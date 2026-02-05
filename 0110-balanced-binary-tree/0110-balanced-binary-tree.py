@@ -13,7 +13,6 @@ class Solution:
             return True
         
         return False
-
     
     def height(self, root):
         #base
