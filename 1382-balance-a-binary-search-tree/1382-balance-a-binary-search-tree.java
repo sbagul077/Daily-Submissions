@@ -44,14 +44,10 @@ class Solution {
         TreeNode left_subTree = createBalancedTree(inorder, start, mid - 1);
         TreeNode right_subTree = createBalancedTree(inorder, mid + 1, end);
 
-        TreeNode node = new TreeNode(inorder.get(mid), left_subTree, right_subTree);
-        // node.left = left_subTree;
-        // node.right = right_subTree;
+        TreeNode node = new TreeNode(inorder.get(mid));
+        node.left = left_subTree;
+        node.right = right_subTree;
 
         return node;
     }
 }
-
-// Inorder Traversal + Recursive Construction
-// Time Complexity: O(N)
-// Space Complexity: O(N)
