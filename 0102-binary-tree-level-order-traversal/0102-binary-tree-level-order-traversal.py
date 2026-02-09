@@ -7,22 +7,26 @@
 class Solution:
     result = []
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        self.result = []
+        self.result = list()
         if root is None:
             return self.result
         
-        self.dfs(root, 0)
-        
+        self.helper(root, 0)
         return self.result
     
-    def dfs(self,root, level):
+    def helper(self, root: Optional[TreeNode], level: int) -> None:
+        #base 
         if root is None:
-            return 
+            return
         
-        if len(self.result) == level:
-            self.result.append([])
+        if len(self.result) <= level:
+            li = list()
+            self.result.append(li)
         
         self.result[level].append(root.val)
-        
-        self.dfs(root.left, level + 1)
-        self.dfs(root.right, level + 1)
+
+        self.helper(root.left, level + 1)
+        self.helper(root.right, level + 1)
+
+#Time Complexity: O(n)
+#Space Complexity: O(n)
