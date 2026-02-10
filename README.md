@@ -200,6 +200,7 @@ Collection of LeetCode questions
 | [0110-balanced-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -216,6 +217,7 @@ Collection of LeetCode questions
 | [0104-maximum-depth-of-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
+| [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -447,6 +449,7 @@ Collection of LeetCode questions
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Combinatorics
 |  |
@@ -471,4 +474,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/sbagul077/Daily-Submissions/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
