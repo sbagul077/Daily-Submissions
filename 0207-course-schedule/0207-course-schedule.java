@@ -1,72 +1,57 @@
 class Solution {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        int[] indegrees = new int[numCourses];
+        HashMap<Integer, List<Integer>> map = new HashMap<>();
 
-   HashMap<Integer, List<Integer>> map;
+        int count = 0;
 
-   boolean [] visited;    boolean [] path; //this path is curr path that we are making starting from a node
+        for(int [] course: prerequisites){
+            indegrees[course[0]]++;
 
-   public boolean canFinish(int numCourses, int[][] prerequisites) {
+            if(!map.containsKey(course[1])){
+                map.put(course[1], new ArrayList<>());
+            }
 
-       visited = new boolean [numCourses];
+            map.get(course[1]).add(course[0]);
+        }
 
-       path = new boolean [numCourses];
+        Queue<Integer> q = new LinkedList<>();
 
-       map = new HashMap<>();
+        for(int i = 0; i < indegrees.length; i++){
+            if(indegrees[i] == 0){
+                q.add(i);
+                count++;
+            }
+        }
 
-       for(int [] edge : prerequisites){
+        if(q.isEmpty()){
+            return false;
+        }
 
-           if(!map.containsKey(edge[1])){
+        while(!q.isEmpty()){
+            int curr = q.poll();
+            List<Integer> currList = map.get(curr);
 
-               map.put(edge[1], new ArrayList<>());
+            if(currList != null){
+                for(int child : currList){
+                    indegrees[child]--;
 
-           }
+                    if(indegrees[child] == 0){
+                        q.add(child);
+                        count++;
+                    }
+                }
+            }
+        }
 
-           map.get(edge[1]).add(edge[0]);
+        if(count == numCourses){
+            return true;
+        }
 
-       }
-
-       for (int i = 0; i < numCourses; i++) {
-
-           if (!visited[i] && dfs(i)) {
-
-               return false;
-
-           }
-
-       }
-
-       return true;
-
-   }
-
-   //dfs is done for detecting cycle;
-
-   private boolean dfs(int i){
-
-       // base
-
-       if(path[i]) return true;
-
-       if(visited[i]) return false;        //logic
-
-       visited[i] = true;        //action add to current path
-
-       path[i] = true;        //recurse on all neigbours
-
-       if(map.get(i) != null){
-
-           for (int n : map.get(i)) {
-
-               if (dfs(n)) return true;
-
-           }
-
-       }
-
-       //backtrack
-
-       path[i] = false;
-
-       return false;
-
-   }
+        return false;
+    }
 }
+
+//Graph
+// Time Complexity: O(V+E)
+// Space Complexity: O(V+E)
