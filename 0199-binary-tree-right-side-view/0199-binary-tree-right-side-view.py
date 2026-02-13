@@ -7,24 +7,30 @@
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         result = list()
+
         if root is None:
             return result
 
-        q = deque()
-        q.append(root)
+        queue = deque()
+        queue.append(root)
 
-        while q:
-            size = len(q)
-            
+        while len(queue) > 0:
+            size = len(queue)
+
             for i in range(size):
-                curr = q.popleft()
-                if curr.left:
-                    q.append(curr.left)
+                curr = queue.popleft()
+
+                if i == 0:
+                    result.append(curr.val)
                 
                 if curr.right:
-                    q.append(curr.right)
+                    queue.append(curr.right)
                 
-                if i == (size - 1):
-                    result.append(curr.val)
+                if curr.left:
+                    queue.append(curr.left)
+        
         return result
-
+    
+#     // BFS
+# // Time Complexity: O(N)
+# // Space Complexity: O(N)
