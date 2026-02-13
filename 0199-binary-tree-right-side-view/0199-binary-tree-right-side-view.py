@@ -5,32 +5,28 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    result = []
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        result = list()
-
-        if root is None:
-            return result
-
-        queue = deque()
-        queue.append(root)
-
-        while len(queue) > 0:
-            size = len(queue)
-
-            for i in range(size):
-                curr = queue.popleft()
-
-                if i == 0:
-                    result.append(curr.val)
-                
-                if curr.right:
-                    queue.append(curr.right)
-                
-                if curr.left:
-                    queue.append(curr.left)
+        self.result = []
         
-        return result
+        if root is None:
+            return self.result
+        
+        self.dfs(root, 1)
+
+        return self.result
     
-#     // BFS
-# // Time Complexity: O(N)
-# // Space Complexity: O(N)
+    def dfs(self, root: Optional[TreeNode], level: int) -> None:
+        #base
+        if root is None:
+            return
+
+        if len(self.result) < level:
+            self.result.append(root.val)
+
+        self.dfs(root.right, level + 1)
+        self.dfs(root.left, level + 1)
+    
+#DFS
+# Time Complexity: O(N)
+# Space Complexity: O(H)
