@@ -416,6 +416,7 @@ Collection of LeetCode questions
 | [0586-customer-placing-the-largest-number-of-orders](https://github.com/sbagul077/Daily-Submissions/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0596-classes-with-at-least-5-students](https://github.com/sbagul077/Daily-Submissions/tree/master/0596-classes-with-at-least-5-students) |
 | [0620-not-boring-movies](https://github.com/sbagul077/Daily-Submissions/tree/master/0620-not-boring-movies) |
+| [1280-students-and-examinations](https://github.com/sbagul077/Daily-Submissions/tree/master/1280-students-and-examinations) |
 | [1339-team-scores-in-football-tournament](https://github.com/sbagul077/Daily-Submissions/tree/master/1339-team-scores-in-football-tournament) |
 | [1452-restaurant-growth](https://github.com/sbagul077/Daily-Submissions/tree/master/1452-restaurant-growth) |
 | [1480-movie-rating](https://github.com/sbagul077/Daily-Submissions/tree/master/1480-movie-rating) |
