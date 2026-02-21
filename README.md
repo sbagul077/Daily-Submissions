@@ -95,6 +95,7 @@ Collection of LeetCode questions
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/sbagul077/Daily-Submissions/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
+| [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions
 | [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
+| [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Tree
 |  |
@@ -227,6 +229,7 @@ Collection of LeetCode questions
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0993-cousins-in-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0993-cousins-in-binary-tree) |
+| [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1142-minimum-knight-moves](https://github.com/sbagul077/Daily-Submissions/tree/master/1142-minimum-knight-moves) |
 | [1731-even-odd-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/1731-even-odd-tree) |
 ## Binary Tree
