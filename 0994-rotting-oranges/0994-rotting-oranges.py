@@ -1,46 +1,47 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        if len(grid) == 0 or grid is None:
-            return 0
-        queue = deque()
-        m = len(grid)
-        n = len(grid[0])
-        dirs = [[0,1], [0, -1], [1, 0],[-1, 0]]
-        countFresh = 0
+        rows = len(grid)
+        cols = len(grid[0])
 
-        for i in range(m):
-            for j in range(n):
+        time = [[math.inf] * cols for i in range(rows)]
+
+        for i in range(rows):
+            for j in range(cols):
                 if grid[i][j] == 2:
-                    queue.append([i,j])
-                elif grid[i][j] == 1:
-                    countFresh += 1
+                    self.dfs(grid, time, i, j, 0)
         
-        if countFresh == 0:
-            return 0
+        max_time = 0
+
+        for i in range(rows):
+            for j in range(cols):
+                if grid[i][j] == 1 and time[i][j] == math.inf:
+                    # print(time)
+                    return -1
+                if time[i][j] != math.inf:
+                    max_time = max(max_time, time[i][j])
+        # print(time)
+        return max_time
+    
+    def dfs(self, grid, time , row, col, current_time):
+        rows = len(grid)
+        cols = len(grid[0])
+
+        #boudary check
+        if row < 0 or row >= rows or col < 0 or col >= cols:
+            return 
         
-        minutes = 0
-        while len(queue) != 0:
-            size = len(queue)
-
-            for i in range(size):
-                currOrange = queue.popleft()
-
-                for d in dirs:
-                    nr = d[0] + currOrange[0]
-                    nc = d[1] + currOrange[1]
-
-                    if (nr >= 0 and nr < m) and (nc >= 0 and nc < n) and grid[nr][nc] == 1:
-                        
-                        grid[nr][nc] = 2
-                        queue.append([nr, nc])
-                        countFresh -= 1
-            
-            minutes += 1
-        if countFresh == 0:
-            return minutes -1
-
-        return -1
+        #if empty cell
+        if grid[row][col] == 0:
+            return
         
-#BFS
-#Time Complexity: O(N)
-#Space Complexity: O(N)
+        #if already visited with smaller time -> stop
+        if time[row][col] <= current_time:
+            return
+        
+        time[row][col] = current_time
+
+        #explore directions
+        dirs = [(0,1), (0,-1), (1,0), (-1,0)]
+
+        for dr, dc in dirs:
+            self.dfs(grid, time, row + dr, col + dc, current_time + 1)
