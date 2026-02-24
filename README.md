@@ -89,6 +89,7 @@ Collection of LeetCode questions
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
+| [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0739-daily-temperatures](https://github.com/sbagul077/Daily-Submissions/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/sbagul077/Daily-Submissions/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
+| [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
@@ -191,6 +193,7 @@ Collection of LeetCode questions
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0543-diameter-of-binary-tree) |
+| [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0993-cousins-in-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0993-cousins-in-binary-tree) |
 | [1731-even-odd-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/1731-even-odd-tree) |
 ## Depth-First Search
@@ -214,6 +217,7 @@ Collection of LeetCode questions
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0543-diameter-of-binary-tree) |
+| [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0993-cousins-in-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0993-cousins-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -228,6 +232,7 @@ Collection of LeetCode questions
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0993-cousins-in-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0993-cousins-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1142-minimum-knight-moves](https://github.com/sbagul077/Daily-Submissions/tree/master/1142-minimum-knight-moves) |
