@@ -8,31 +8,33 @@ class Employee {
 */
 
 class Solution {
-    int result;
-    HashMap<Integer, Employee> map;
     public int getImportance(List<Employee> employees, int id) {
-        result = 0;
-        map = new HashMap<>();
+        int result = 0;
+
+        HashMap<Integer, Employee> map = new HashMap<>();
 
         for(Employee emp: employees){
             map.put(emp.id, emp);
+        }    
+
+        Queue<Integer> q = new LinkedList<>();
+
+        q.add(id);
+
+        while(!q.isEmpty()){
+            Employee currEmp = map.get(q.poll());
+            result += currEmp.importance;
+
+            for(int subemp: currEmp.subordinates){
+                q.add(subemp);
+            }
         }
 
-        dfs(id);
         return result;
     }
 
-    private void dfs(int eid){
-        
-        Employee e = map.get(eid);
-        result += e.importance;
-
-        for(int subid: e.subordinates){
-            dfs(subid);
-        }
-    }
 }
 
- //DFS
+// BFS
 // Time Complexity: O(N)
 // Space Complexity: O(N)
