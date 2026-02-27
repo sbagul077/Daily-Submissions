@@ -28,6 +28,7 @@ Collection of LeetCode questions
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Stack
 |  |
 | ------- |
@@ -129,6 +130,7 @@ Collection of LeetCode questions
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -244,6 +246,7 @@ Collection of LeetCode questions
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1142-minimum-knight-moves](https://github.com/sbagul077/Daily-Submissions/tree/master/1142-minimum-knight-moves) |
 | [1731-even-odd-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/1731-even-odd-tree) |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Binary Tree
 |  |
 | ------- |
@@ -509,4 +512,12 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
+## Union-Find
+|  |
+| ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
+## Ordered Set
+|  |
+| ------- |
+| [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 <!---LeetCode Topics End-->
