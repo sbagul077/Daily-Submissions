@@ -86,6 +86,7 @@ Collection of LeetCode questions
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
@@ -171,6 +172,7 @@ Collection of LeetCode questions
 | [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
+| [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/sbagul077/Daily-Submissions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -235,6 +237,7 @@ Collection of LeetCode questions
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sbagul077/Daily-Submissions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0733-flood-fill](https://github.com/sbagul077/Daily-Submissions/tree/master/0733-flood-fill) |
 | [0993-cousins-in-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0993-cousins-in-binary-tree) |
@@ -396,6 +399,7 @@ Collection of LeetCode questions
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
+| [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
