@@ -75,6 +75,7 @@ Collection of LeetCode questions
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
@@ -170,6 +171,7 @@ Collection of LeetCode questions
 | [0036-valid-sudoku](https://github.com/sbagul077/Daily-Submissions/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
@@ -216,6 +218,7 @@ Collection of LeetCode questions
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/sbagul077/Daily-Submissions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sbagul077/Daily-Submissions/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -237,6 +240,7 @@ Collection of LeetCode questions
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/sbagul077/Daily-Submissions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/sbagul077/Daily-Submissions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0226-invert-binary-tree) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
@@ -518,6 +522,7 @@ Collection of LeetCode questions
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Ordered Set
 |  |
