@@ -106,6 +106,7 @@ Collection of LeetCode questions
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -178,6 +179,7 @@ Collection of LeetCode questions
 | [0733-flood-fill](https://github.com/sbagul077/Daily-Submissions/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 ## Tree
 |  |
 | ------- |
@@ -455,6 +457,7 @@ Collection of LeetCode questions
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
+| [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 ## Prefix Sum
 |  |
 | ------- |
