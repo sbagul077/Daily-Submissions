@@ -14,39 +14,41 @@
  * }
  */
 class Solution {
+    List<Integer> result;
     public List<Integer> largestValues(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        
+        result = new ArrayList<>();
+
         if(root == null){
             return result;
         }
 
-        Queue<TreeNode> q = new LinkedList<>();
+        helper(root, 1);
 
-        q.add(root);
-
-        while(!q.isEmpty()){
-            int size = q.size();
-            int tempMax = Integer.MIN_VALUE;
-
-            for(int i = 0; i < size; i++){
-                TreeNode curr = q.poll();
-
-                if(curr.val > tempMax){
-                    tempMax = curr.val;
-                }
-
-                if(curr.left != null){
-                    q.add(curr.left);
-                }
-
-                if(curr.right != null){
-                    q.add(curr.right);
-                }
-            }
-
-            result.add(tempMax);
-        }
         return result;
     }
+
+    private void helper(TreeNode root, Integer level){
+        //base
+        if(root == null){
+            return;
+        }
+
+        if(level > result.size()){
+            result.add(root.val);
+        }
+
+        if(level <= result.size()){
+            if(result.get(level - 1) < root.val){
+                result.set(level - 1, root.val);
+            }            
+        }
+
+        helper(root.left, level + 1);
+        helper(root.right, level + 1);
+    }
 }
+
+// DFS
+// Maintain level at each level and update the result at index when larger element is found
+// Time Complexity: O(n)
+// Space Complexity: O(h)
