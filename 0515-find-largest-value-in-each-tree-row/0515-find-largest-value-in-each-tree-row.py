@@ -5,35 +5,34 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    result = []
     def largestValues(self, root: Optional[TreeNode]) -> List[int]:
-        result = list()
-        if root is None:
-            return result
+        self.result = list()
         
-        # result.append(root.val)
-        queue = deque()
+        if not root:
+            return self.result
+        # self.result.append(/)
+        self.helper(root, 1)
 
-        queue.append(root)
+        return self.result
+    
+    def helper(self, root: Optional[TreeNode], level : int) -> None:
+        #base
+        if root is None:
+            return
+        #logic
+        if level > len(self.result):
+            self.result.append(root.val)
+        
+        if level <= len(self.result):
+            if self.result[level - 1] < root.val:
+                self.result[level - 1] = root.val
+        
+        self.helper(root.left, level + 1)
+        self.helper(root.right, level + 1)
 
-        while len(queue) > 0:
-            size = len(queue)
-            tempMax = float("-inf")
+# DFS
+#Time Complexity: O(n)
+#Space Complexity: O(h)
 
-            for i in range(size):
-                curr = queue.popleft()
-
-                if curr.val > tempMax:
-                    tempMax = curr.val
-                
-                if curr.left:
-                    queue.append(curr.left)
-                
-                if curr.right:
-                    queue.append(curr.right)
-
-            result.append(tempMax)
-
-        return result
-
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+        
