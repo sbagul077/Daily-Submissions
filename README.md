@@ -110,6 +110,7 @@ Collection of LeetCode questions
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -134,6 +135,7 @@ Collection of LeetCode questions
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Hash Table
 |  |
@@ -184,6 +186,7 @@ Collection of LeetCode questions
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## Tree
 |  |
 | ------- |
@@ -313,6 +316,7 @@ Collection of LeetCode questions
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## Queue
 |  |
 | ------- |
@@ -362,6 +366,7 @@ Collection of LeetCode questions
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## Quickselect
 |  |
 | ------- |
@@ -469,6 +474,7 @@ Collection of LeetCode questions
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/sbagul077/Daily-Submissions/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+| [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## String Matching
 |  |
 | ------- |
