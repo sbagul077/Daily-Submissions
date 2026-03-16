@@ -67,6 +67,7 @@ Collection of LeetCode questions
 | [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sbagul077/Daily-Submissions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/sbagul077/Daily-Submissions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -116,6 +117,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
+| [0078-subsets](https://github.com/sbagul077/Daily-Submissions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
@@ -528,4 +530,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/sbagul077/Daily-Submissions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
