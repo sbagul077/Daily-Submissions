@@ -12,6 +12,7 @@ Collection of LeetCode questions
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/sbagul077/Daily-Submissions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/sbagul077/Daily-Submissions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/sbagul077/Daily-Submissions/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
@@ -120,6 +121,7 @@ Collection of LeetCode questions
 | [0039-combination-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/sbagul077/Daily-Submissions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/sbagul077/Daily-Submissions/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/sbagul077/Daily-Submissions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 ## Math
@@ -413,6 +415,7 @@ Collection of LeetCode questions
 | [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0131-palindrome-partitioning](https://github.com/sbagul077/Daily-Submissions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
