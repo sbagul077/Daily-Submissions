@@ -1,48 +1,57 @@
 class Solution {
-    int[][] dirs = new int[][] { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
-
+    int[][] dirs = new int[][]{{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    int m;
+    int n;
     public boolean exist(char[][] board, String word) {
-        int m = board.length;
-        int n = board[0].length;
+        if(board.length == 0 || board == null){
+            return false;
+        }
 
-        // int[][] dirs = new int[][] { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+        m = board.length;
+        n = board[0].length;
 
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (dfs(board, word, i, j, 0) == true) {
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(backtrack(board, word, i, j, 0)){
                     return true;
                 }
             }
         }
+
         return false;
     }
 
-    private boolean dfs(char[][] board, String word, int row, int col, int index) {
-        // base
-        if (row < 0 || col < 0 || row == board.length || col == board[0].length || board[row][col] == '#') {
+    private boolean backtrack(char[][] board, String word, int i, int j, int index){
+        //base
+        if(i < 0 || j < 0 || i == m || j == n || board[i][j] == '#'){
             return false;
         }
-        if (index == word.length()) {
-            return true;
-        }
 
-        if (board[row][col] == word.charAt(index)) {
-            if (index == word.length()-1) {
-                return true;
-            }
+        if(index == word.length()) return true;
 
-            char ch = board[row][col];
-            board[row][col] = '#';
+        if(word.charAt(index) == board[i][j]){
+            if(index == word.length() - 1) return true;
 
-            for (int[] dir : dirs) {
-                int nr = dir[0] + row;
-                int nc = dir[1] + col;
-                if (dfs(board, word, nr, nc, index + 1) == true) {
+            //action
+            char ch = board[i][j];
+            board[i][j] = '#';
+
+            for(int[] dir: dirs){
+                int nr = dir[0] + i;
+                int nc = dir[1] + j;
+
+                if(backtrack(board, word, nr, nc, index + 1) == true){
                     return true;
                 }
             }
-            board[row][col] = ch;
+            board[i][j] = ch;         
         }
+
         return false;
     }
 }
+
+
+// # For Loop Recursion Backtracking
+// # Time Complexity: O(M*N*4^L). Where L is the lenght of the word
+// # Space Complexity: O(L). Where L is the length of the word
