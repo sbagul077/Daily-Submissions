@@ -22,6 +22,7 @@ Collection of LeetCode questions
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0648-replace-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
+| [0648-replace-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
@@ -162,6 +164,7 @@ Collection of LeetCode questions
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
+| [0648-replace-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0648-replace-words) |
 | [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
@@ -303,6 +306,7 @@ Collection of LeetCode questions
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
+| [0648-replace-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0648-replace-words) |
 | [0720-longest-word-in-dictionary](https://github.com/sbagul077/Daily-Submissions/tree/master/0720-longest-word-in-dictionary) |
 ## Sorting
 |  |
