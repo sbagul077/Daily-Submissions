@@ -30,6 +30,7 @@ Collection of LeetCode questions
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sbagul077/Daily-Submissions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Stack
 |  |
@@ -118,6 +119,7 @@ Collection of LeetCode questions
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/sbagul077/Daily-Submissions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 ## Backtracking
 |  |
 | ------- |
@@ -194,6 +196,7 @@ Collection of LeetCode questions
 | [1496-lucky-numbers-in-a-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 ## Tree
 |  |
 | ------- |
@@ -428,6 +431,7 @@ Collection of LeetCode questions
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 ## Counting
 |  |
 | ------- |
@@ -478,6 +482,7 @@ Collection of LeetCode questions
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0778-reorganize-string) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -540,6 +545,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/sbagul077/Daily-Submissions/tree/master/0200-number-of-islands) |
+| [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Ordered Set
 |  |
