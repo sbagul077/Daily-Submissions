@@ -21,32 +21,30 @@
 #        """
 
 class NestedIterator:
-    q = deque()
-    def __init__(self, nestedList: [NestedInteger]):
-        self.q = deque()        
-        self.flatten(nestedList)
 
+    def __init__(self, nestedList: [NestedInteger]):
+        self.st = [iter(nestedList)]
+        self.nextEl = 0        
+    
     def next(self) -> int:
-        return self.q.popleft()
+        return self.nextEl.getInteger();
     
     def hasNext(self) -> bool:
-        if len(self.q) > 0:
-            return True
-        return False
-    
-    def flatten(self, nestedList):
-        print(nestedList)
-        for ele in nestedList:
-            if ele.isInteger():
-                self.q.append(ele.getInteger())
-            else:
-                self.flatten(ele.getList())
         
-        # for i in nestedList:
-        #     if i.isInteger():
-        #         self.queue.append(i.getInteger())
-        #     else:
-        #         self.fillQueue(i.getList())
+        while self.st:
+            self.nextEl = next(self.st[-1], None)
+            if self.nextEl is None:
+                self.st.pop();
+            else:
+                if self.nextEl.isInteger():
+                    return True
+                else:
+                    self.st.append(iter(self.nextEl.getList()))
+        
+        return False
+
+#TC: O(n)
+#SC: O(n)
 
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
