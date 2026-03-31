@@ -1,51 +1,51 @@
-# """
-# This is the interface that allows for creating nested lists.
-# You should not implement it, or speculate about its implementation
-# """
-#class NestedInteger:
-#    def isInteger(self) -> bool:
-#        """
-#        @return True if this NestedInteger holds a single integer, rather than a nested list.
-#        """
-#
-#    def getInteger(self) -> int:
-#        """
-#        @return the single integer that this NestedInteger holds, if it holds a single integer
-#        Return None if this NestedInteger holds a nested list
-#        """
-#
-#    def getList(self) -> [NestedInteger]:
-#        """
-#        @return the nested list that this NestedInteger holds, if it holds a nested list
-#        Return None if this NestedInteger holds a single integer
-#        """
-
-class NestedIterator:
-
-    def __init__(self, nestedList: [NestedInteger]):
-        self.st = [iter(nestedList)]
-        self.nextEl = 0        
+/**
+ * // This is the interface that allows for creating nested lists.
+ * // You should not implement it, or speculate about its implementation
+ * public interface NestedInteger {
+ *
+ *     // @return true if this NestedInteger holds a single integer, rather than a nested list.
+ *     public boolean isInteger();
+ *
+ *     // @return the single integer that this NestedInteger holds, if it holds a single integer
+ *     // Return null if this NestedInteger holds a nested list
+ *     public Integer getInteger();
+ *
+ *     // @return the nested list that this NestedInteger holds, if it holds a nested list
+ *     // Return empty list if this NestedInteger holds a single integer
+ *     public List<NestedInteger> getList();
+ * }
+ */
+public class NestedIterator implements Iterator<Integer> {
     
-    def next(self) -> int:
-        return self.nextEl.getInteger();
-    
-    def hasNext(self) -> bool:
-        
-        while self.st:
-            self.nextEl = next(self.st[-1], None)
-            if self.nextEl is None:
-                self.st.pop();
-            else:
-                if self.nextEl.isInteger():
-                    return True
-                else:
-                    self.st.append(iter(self.nextEl.getList()))
-        
-        return False
+    Queue<Integer> q;
+    public NestedIterator(List<NestedInteger> nestedList) {
+        q = new LinkedList<>();
+        flatten(nestedList);
+    }
 
-#TC: O(n)
-#SC: O(n)
+    private void flatten(List<NestedInteger> nestedList){
+        for(NestedInteger element: nestedList){
+            if(element.isInteger() == true){
+                q.add(element.getInteger());
+            }else{
+                flatten(element.getList());
+            }
+        }
+    }
 
-# Your NestedIterator object will be instantiated and called as such:
-# i, v = NestedIterator(nestedList), []
-# while i.hasNext(): v.append(i.next())
+    @Override
+    public Integer next() {
+        return q.poll();
+    }
+
+    @Override
+    public boolean hasNext() {
+        return q.size() > 0;
+    }
+}
+
+/**
+ * Your NestedIterator object will be instantiated and called as such:
+ * NestedIterator i = new NestedIterator(nestedList);
+ * while (i.hasNext()) v[f()] = i.next();
+ */
