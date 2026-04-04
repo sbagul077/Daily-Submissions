@@ -92,6 +92,7 @@ Collection of LeetCode questions
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
 | [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
+| [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions
 | [0131-palindrome-partitioning](https://github.com/sbagul077/Daily-Submissions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
+| [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
 ## Math
 |  |
 | ------- |
@@ -427,6 +429,7 @@ Collection of LeetCode questions
 | [0131-palindrome-partitioning](https://github.com/sbagul077/Daily-Submissions/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
+| [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
@@ -555,4 +558,9 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0078-subsets](https://github.com/sbagul077/Daily-Submissions/tree/master/0078-subsets) |
+| [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
+## Bitmask
+|  |
+| ------- |
+| [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
 <!---LeetCode Topics End-->
