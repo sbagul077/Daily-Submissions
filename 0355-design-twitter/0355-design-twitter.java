@@ -1,55 +1,61 @@
-class Twitter {
-    class Tweets{
-        int id;
-        int createdAt;
-        public Tweets(int tweetId, int time){
-            this.id = tweetId;
-            this.createdAt = time;
-        }
+class Tweets{
+    int createdAt;
+    int tweetId;
+
+    public Tweets(int time, int tweetId){
+        this.createdAt = time;
+        this.tweetId = tweetId;
     }
-    public int time;
-    public HashMap<Integer, List<Tweets>> tweets;
-    public HashMap<Integer, HashSet<Integer>> followed;
+}
+class Twitter {
+    int time;
+    HashMap<Integer, List<Tweets>> tweetsPosted;
+    HashMap<Integer, HashSet<Integer>> followed;
 
     public Twitter() {
-        tweets = new HashMap<>();
-        followed = new HashMap<>();        
-        time = 0;
+        this.time = 0;
+        this.tweetsPosted = new HashMap<>();
+        this.followed = new HashMap<>();        
     }
     
     public void postTweet(int userId, int tweetId) {
-        //entries in followed table and tweets table
         follow(userId, userId);
-        if(!tweets.containsKey(userId)){
-            tweets.put(userId, new ArrayList<>());
+        if(!tweetsPosted.containsKey(userId)){
+            tweetsPosted.put(userId, new ArrayList<>());
         }
-        // Tweets newTweet = new Tweets(tweetId, time++);
 
-        tweets.get(userId).add(new Tweets(tweetId, time++));
+        tweetsPosted.get(userId).add(new Tweets(time, tweetId));
+        time++;       
+        // tweetsPosted.forEach((key, value) -> System.out.println(key + " : " + value));
+
     }
     
     public List<Integer> getNewsFeed(int userId) {
-        PriorityQueue<Tweets> pq = new PriorityQueue<>((a, b) -> a.createdAt- b.createdAt);
-        //get list of people userId is following
-        HashSet<Integer> fids = followed.get(userId);
-        if(fids != null){
-            for(int fid : fids){
-                List<Tweets> tweetList = tweets.get(fid);
+        PriorityQueue<Tweets> pq = new PriorityQueue<>((a, b) -> a.createdAt - b.createdAt);
+
+        HashSet<Integer> fIds = followed.get(userId);
+    
+        if(fIds != null){
+            for(int fId: fIds){
+                // System.out.println(fId);
+                List<Tweets> tweetList = tweetsPosted.get(fId);
+                // System.out.println(tweetList);
                 if(tweetList != null){
                     for(Tweets tweet: tweetList){
                         pq.add(tweet);
-                        if(pq.size()> 10){
+                        if(pq.size() > 10){
                             pq.poll();
                         }
                     }
                 }
             }
         }
+
         List<Integer> feed = new ArrayList<>();
         while(!pq.isEmpty()){
-            feed.add(0, pq.poll().id);
+            feed.add(0,pq.poll().tweetId);
         }
-        // System.out.println(feed);
+
         return feed;
 
     }
@@ -58,11 +64,11 @@ class Twitter {
         if(!followed.containsKey(followerId)){
             followed.put(followerId, new HashSet<>());
         }
-        followed.get(followerId).add(followeeId);
+        followed.get(followerId).add(followeeId);     
     }
     
     public void unfollow(int followerId, int followeeId) {
-        if(followed.containsKey(followerId) && followerId != followeeId){
+        if(followed.containsKey(followerId) && followed.get(followerId).contains(followeeId) && followerId != followeeId){
             followed.get(followerId).remove(followeeId);
         }
     }
