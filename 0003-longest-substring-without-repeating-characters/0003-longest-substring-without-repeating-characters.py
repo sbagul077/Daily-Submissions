@@ -1,25 +1,23 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        if s is None or len(s) == 0:
-            return 0
-
         hashMap = dict()
 
-        result = 0
         slow = 0
+        n = len(s)
+        result = 0
 
-        for i in range(len(s)):
-            char = s[i]
+        for fast in range(n):
+            curr = s[fast]
 
-            if char in hashMap.keys():
-                slow = max(slow, hashMap.get(char))
+            if curr in hashMap.keys():
+                slow = max(slow, hashMap.get(curr))
             
-            result = max(result, i - slow + 1)
+            result = max(result, fast - slow + 1)
+            hashMap[curr] = fast + 1
+        
 
-            hashMap[char] =  i + 1
-    
         return result
 
-#Two Pointers and hashing
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+# // Sliding window
+# // Time Complexity: O(n)
+# // Space Complexity: O(1)
