@@ -1,59 +1,54 @@
-class TrieNode{
-    TrieNode[] children;
-    boolean isEnd;
-
-    public TrieNode(){
-        children = new TrieNode[26];
-        isEnd = false;
-    }
-}
 class Solution {
-    private String result ="";
+    class TrieNode{
+        TrieNode[] children;
+        boolean isEnd;
+        char c;
+        public TrieNode(){
+            children = new TrieNode[26];
+        }
+    }
+
     TrieNode root;
-
-    private void insert(TrieNode root, String word){
+    private void insert(String word){
         TrieNode curr = root;
-
-
         for(int i = 0; i < word.length(); i++){
-            char ch = word.charAt(i);
-
-            if(curr.children[ch - 'a'] == null){
-                curr.children[ch - 'a'] = new TrieNode();
+            char c = word.charAt(i);
+            if(curr.children[c - 'a'] == null){
+                curr.children[c - 'a'] = new TrieNode();
             }
-            curr = curr.children[ch - 'a'];
+            curr = curr.children[c - 'a'];
+            curr.c = c;
         }
         curr.isEnd = true;
-        
     }
+    StringBuilder result;
 
-    public String longestWord(String[] words) {     
-        if(words == null || words.length == 0){
-            return "";
-        }
+    public String longestWord(String[] words) {
         root = new TrieNode();
+        result =  new StringBuilder();
         for(String word: words){
-            insert(root, word);
+            insert(word);
         }
-        dfs(root, new StringBuilder(""));
-
-        return result;
+        dfs(root, new StringBuilder());
+        return result.toString();
     }
 
     private void dfs(TrieNode curr, StringBuilder path){
-        // System.out.println(path.toString())
-        if (path.length() >= result.length()){
-            result = path.toString();
+        //base
+        if(path.length() >= result.length()){
+            result = new StringBuilder(path);
         }
 
+        //logic
         for(int i = 25; i >= 0; i--){
-            if(curr.children[i] != null && curr.children[i].isEnd == true){
-                int le = path.length();
-                path.append((char)(i + 97));
-                // System.out.println(path.toString());
+            if(curr.children[i] != null && curr.children[i].isEnd){
+                //action
+                path.append(curr.children[i].c);
+                // recurse
                 dfs(curr.children[i], path);
-                path.setLength(le);
+                //backtrack
+                path.setLength(path.length()- 1);
             }
-        }        
+        }
     }
 }
