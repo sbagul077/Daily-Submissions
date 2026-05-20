@@ -1,29 +1,27 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        if haystack is None or len(haystack) == 0 or needle is None or len(haystack) ==0:
-            return -1
-        
+        if len(needle) == 0:
+            return 0
         m = len(haystack)
         n = len(needle)
 
-        for i in range(m):
+        i = 0
+        # print("this")
+        while i <= m - n:
             if haystack[i] == needle[0]:
-                k = i
+                # print("this")
                 j = 0
-                while k < m and j < n:
-                    if haystack[k] == needle[j]:
-                        k += 1
-                        j += 1
-                    else:
-                        break
-                
+                k = i
+                while j < n and k < m and haystack[k] == needle[j]:
+                    j += 1
+                    k += 1
+
                     if j == n:
                         return i
+            
+            i += 1
         
         return -1
 
-#Brute Force
-#Time Complexity: O((m-n) * n)
-#Space Complexity: O(1)
-                    
-
+# Time Complexity: O(m * n)
+# Space Complexity: O(1)
