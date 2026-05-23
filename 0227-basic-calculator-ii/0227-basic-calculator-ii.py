@@ -1,33 +1,39 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        st = []
-        calc = 0 
+        if s is None or len(s) == 0:
+            return 0
+        
+        tail = 0
         curr = 0
-        lastSign = "+"
+        calc = 0
+        s.strip()
+
+        lastSign = '+'
 
         for i in range(len(s)):
-            char = s[i]
+            ch = s[i]
 
-            if char.isdigit():
-                curr = curr * 10 + int(char)
+            if ch.isnumeric():
+                curr = curr * 10 + int(ch)
             
-            if (not char.isdigit() and char != " ") or (i == len(s) - 1):
+            if(not ch.isdigit() and ch != " ") or i == len(s) - 1:
                 if lastSign == "+":
-                    st.append(curr)
+                    calc = calc + curr
+                    tail = curr
                 elif lastSign == "-":
-                    st.append(-curr)
+                    calc = calc - curr
+                    tail = -curr
                 elif lastSign == "*":
-                    st.append(st.pop() * curr)
+                    calc = calc - tail + (tail * curr)
+                    tail = tail * curr
                 elif lastSign == "/":
-                    st.append(int(st.pop() / curr))
+                    calc = calc - tail + int(tail / curr)
+                    tail = int(tail / curr)
                 
-                lastSign = char
                 curr = 0
-        
-        while len(st) > 0:
-            calc += st.pop()
+                lastSign = ch
         
         return calc
-# // Stack
-# // Time Complexity: O(n)
-# // Space Complexity: O(n)
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
