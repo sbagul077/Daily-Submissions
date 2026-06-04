@@ -19,12 +19,13 @@ class Solution {
     TreeNode prev;
     boolean flag;
     public void recoverTree(TreeNode root) {
-        if(root == null) return;
+        if(root == null){
+            return;
+        }
         inorder(root);
-
         int temp = first.val;
         first.val = second.val;
-        second.val = temp;
+        second.val = temp;        
     }
 
     private void inorder(TreeNode root){
@@ -32,24 +33,24 @@ class Solution {
         if(root == null){
             return;
         }
+
         //logic
         inorder(root.left);
+        //st.pop()
         if(prev != null && prev.val >= root.val){
+            //voilation
             if(!flag){
                 first = prev;
                 second = root;
                 flag = true;
-            }
-            else{
+            }else{
                 second = root;
             }
         }
-
         prev = root;
         inorder(root.right);
     }
 }
 
-//DFS
-//Time Complexity: O(n)
-//Space Complexity: O(n)
+// Time Complexity: O(n)
+// Space Complexity: O(h)
