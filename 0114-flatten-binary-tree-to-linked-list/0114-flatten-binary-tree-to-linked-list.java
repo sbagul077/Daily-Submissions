@@ -15,7 +15,7 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        if(root == null || root.right == null && root.left == null){
+        if(root == null || root.left == null && root.right == null){
             return;
         }
 
@@ -30,9 +30,6 @@ class Solution {
             root.right = tempNode;
         }
         flatten(root.right);
+        
     }
 }
-
-//DFS
-//TC: O(n)
-//SC: O(n)
