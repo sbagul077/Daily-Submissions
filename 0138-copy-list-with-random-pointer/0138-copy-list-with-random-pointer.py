@@ -9,39 +9,40 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        if head is None:
-            return None
+        if head is None :
+            return head
         
+        # 1. Make a deep of just the list
         curr = head
 
-        #Step 1: Create a deep copy of the original list 
         while curr:
             copyNode = Node(curr.val)
             copyNode.next = curr.next
             curr.next = copyNode
             curr = curr.next.next
-        
-        #Step 2: point randon pointers on copied list same as original list
 
+        # 2. Point the random pointers to the copied list
         curr = head
-        
+        # print(curr.val)
         while curr:
             if curr.random:
                 curr.next.random = curr.random.next
             curr = curr.next.next
-        
-        #Step 3: Seperate original list with copied one
 
+        # 3. seperate two list
         curr = head
-        copyHead = curr.next
-        currCopy = curr.next
-
+        currCopy = head.next
+        head2 = head.next
+  
         while curr:
             curr.next = curr.next.next
             if currCopy.next:
-                currCopy.next = currCopy.next.next
+                currCopy.next = currCopy.next.next                
             curr = curr.next
             currCopy = currCopy.next
-        
-        return copyHead
-            
+        # print(head2, head)
+        return head2
+
+#Pointers        
+# Time Complexity: O(n)
+#Space Complexity: O(1)
