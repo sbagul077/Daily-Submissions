@@ -110,6 +110,7 @@ Collection of LeetCode questions
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
+| [0997-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/0997-find-the-town-judge) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1043-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1043-partition-array-for-maximum-sum) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions
 | [0807-custom-sort-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0807-custom-sort-string) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
+| [0997-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/0997-find-the-town-judge) |
 | [1039-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/1039-find-the-town-judge) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/sbagul077/Daily-Submissions/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -552,6 +554,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sbagul077/Daily-Submissions/tree/master/0207-course-schedule) |
+| [0997-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/0997-find-the-town-judge) |
 ## Union-Find
 |  |
 | ------- |
