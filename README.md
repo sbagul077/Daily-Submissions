@@ -574,4 +574,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
