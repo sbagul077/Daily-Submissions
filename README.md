@@ -109,6 +109,7 @@ Collection of LeetCode questions
 | [0786-search-in-a-sorted-array-of-unknown-size](https://github.com/sbagul077/Daily-Submissions/tree/master/0786-search-in-a-sorted-array-of-unknown-size) |
 | [0816-design-hashset](https://github.com/sbagul077/Daily-Submissions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/sbagul077/Daily-Submissions/tree/master/0817-design-hashmap) |
+| [0983-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/0983-minimum-cost-for-tickets) |
 | [0994-rotting-oranges](https://github.com/sbagul077/Daily-Submissions/tree/master/0994-rotting-oranges) |
 | [0997-find-the-town-judge](https://github.com/sbagul077/Daily-Submissions/tree/master/0997-find-the-town-judge) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
@@ -439,6 +440,7 @@ Collection of LeetCode questions
 | [0221-maximal-square](https://github.com/sbagul077/Daily-Submissions/tree/master/0221-maximal-square) |
 | [0526-beautiful-arrangement](https://github.com/sbagul077/Daily-Submissions/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
+| [0983-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/0983-minimum-cost-for-tickets) |
 | [1025-minimum-cost-for-tickets](https://github.com/sbagul077/Daily-Submissions/tree/master/1025-minimum-cost-for-tickets) |
 | [1043-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1043-partition-array-for-maximum-sum) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
