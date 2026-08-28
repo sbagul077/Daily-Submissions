@@ -89,6 +89,7 @@ Collection of LeetCode questions
 | [0238-product-of-array-except-self](https://github.com/sbagul077/Daily-Submissions/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0240-search-a-2d-matrix-ii) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+| [0274-h-index](https://github.com/sbagul077/Daily-Submissions/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions
 | [0088-merge-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+| [0274-h-index](https://github.com/sbagul077/Daily-Submissions/tree/master/0274-h-index) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
@@ -547,6 +549,7 @@ Collection of LeetCode questions
 ## Counting Sort
 |  |
 | ------- |
+| [0274-h-index](https://github.com/sbagul077/Daily-Submissions/tree/master/0274-h-index) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 ## Interactive
 |  |
