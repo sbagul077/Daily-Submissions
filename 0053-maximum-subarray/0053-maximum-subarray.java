@@ -5,18 +5,18 @@ class Solution {
         }
 
         int result = nums[0];
-        int rSum = nums[0];
+        int n = nums.length;
+        int prev  = Math.max(nums[0], 0);
+        for(int i = 1; i < n; i++){
 
-        for(int i = 1; i < nums.length; i++){
-
-            rSum = Math.max(rSum + nums[i], nums[i]);
-
-            result = Math.max(result, rSum);
+            prev = Math.max(nums[i], prev + nums[i]);
+            result = Math.max(result, prev);
         }
 
         return result;
     }
+
 }
 
-//Time Complexity: O(n)
-//Space Complexity: O(1)
+// Time Complexity: O(n)
+// Space Complexity: O(1)
