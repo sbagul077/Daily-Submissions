@@ -91,6 +91,7 @@ Collection of LeetCode questions
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/sbagul077/Daily-Submissions/tree/master/0274-h-index) |
 | [0275-h-index-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0275-h-index-ii) |
+| [0284-peeking-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0284-peeking-iterator) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0379-design-phone-directory](https://github.com/sbagul077/Daily-Submissions/tree/master/0379-design-phone-directory) |
 | [0490-the-maze](https://github.com/sbagul077/Daily-Submissions/tree/master/0490-the-maze) |
@@ -307,6 +308,7 @@ Collection of LeetCode questions
 | [0155-min-stack](https://github.com/sbagul077/Daily-Submissions/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/sbagul077/Daily-Submissions/tree/master/0208-implement-trie-prefix-tree) |
+| [0284-peeking-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0284-peeking-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/sbagul077/Daily-Submissions/tree/master/0355-design-twitter) |
 | [0359-logger-rate-limiter](https://github.com/sbagul077/Daily-Submissions/tree/master/0359-logger-rate-limiter) |
@@ -348,6 +350,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0173-binary-search-tree-iterator) |
+| [0284-peeking-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0284-peeking-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 ## Linked List
 |  |
