@@ -7,6 +7,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sbagul077/Daily-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/sbagul077/Daily-Submissions/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/sbagul077/Daily-Submissions/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/0076-minimum-window-substring) |
@@ -36,6 +37,7 @@ Collection of LeetCode questions
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/sbagul077/Daily-Submissions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sbagul077/Daily-Submissions/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/sbagul077/Daily-Submissions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -586,4 +588,8 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/sbagul077/Daily-Submissions/tree/master/0127-word-ladder) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/sbagul077/Daily-Submissions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
