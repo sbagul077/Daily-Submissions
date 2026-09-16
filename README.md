@@ -156,6 +156,7 @@ Collection of LeetCode questions
 | [0282-expression-add-operators](https://github.com/sbagul077/Daily-Submissions/tree/master/0282-expression-add-operators) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sbagul077/Daily-Submissions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/sbagul077/Daily-Submissions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3666-minimum-operations-to-equalize-binary-string](https://github.com/sbagul077/Daily-Submissions/tree/master/3666-minimum-operations-to-equalize-binary-string) |
 ## Hash Table
@@ -454,6 +455,7 @@ Collection of LeetCode questions
 | [1043-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1043-partition-array-for-maximum-sum) |
 | [1121-partition-array-for-maximum-sum](https://github.com/sbagul077/Daily-Submissions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1571-allocate-mailboxes](https://github.com/sbagul077/Daily-Submissions/tree/master/1571-allocate-mailboxes) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/sbagul077/Daily-Submissions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2573-find-the-string-with-lcp](https://github.com/sbagul077/Daily-Submissions/tree/master/2573-find-the-string-with-lcp) |
 ## Counting
 |  |
@@ -512,6 +514,7 @@ Collection of LeetCode questions
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/sbagul077/Daily-Submissions/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/sbagul077/Daily-Submissions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/sbagul077/Daily-Submissions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 ## String Matching
 |  |
@@ -542,6 +545,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/sbagul077/Daily-Submissions/tree/master/0062-unique-paths) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/sbagul077/Daily-Submissions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 ## Memoization
 |  |
 | ------- |
