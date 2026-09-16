@@ -48,6 +48,7 @@ Collection of LeetCode questions
 | [0341-flatten-nested-list-iterator](https://github.com/sbagul077/Daily-Submissions/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/sbagul077/Daily-Submissions/tree/master/0394-decode-string) |
 | [0503-next-greater-element-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0503-next-greater-element-ii) |
+| [0636-exclusive-time-of-functions](https://github.com/sbagul077/Daily-Submissions/tree/master/0636-exclusive-time-of-functions) |
 | [0739-daily-temperatures](https://github.com/sbagul077/Daily-Submissions/tree/master/0739-daily-temperatures) |
 | [1909-buildings-with-an-ocean-view](https://github.com/sbagul077/Daily-Submissions/tree/master/1909-buildings-with-an-ocean-view) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sbagul077/Daily-Submissions/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions
 | [0542-01-matrix](https://github.com/sbagul077/Daily-Submissions/tree/master/0542-01-matrix) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
+| [0636-exclusive-time-of-functions](https://github.com/sbagul077/Daily-Submissions/tree/master/0636-exclusive-time-of-functions) |
 | [0648-replace-words](https://github.com/sbagul077/Daily-Submissions/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/sbagul077/Daily-Submissions/tree/master/0658-find-k-closest-elements) |
 | [0690-employee-importance](https://github.com/sbagul077/Daily-Submissions/tree/master/0690-employee-importance) |
