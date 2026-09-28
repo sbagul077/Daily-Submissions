@@ -82,6 +82,7 @@ Collection of LeetCode questions
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sbagul077/Daily-Submissions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sbagul077/Daily-Submissions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0135-candy](https://github.com/sbagul077/Daily-Submissions/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/sbagul077/Daily-Submissions/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0189-rotate-array](https://github.com/sbagul077/Daily-Submissions/tree/master/0189-rotate-array) |
@@ -503,6 +504,7 @@ Collection of LeetCode questions
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0135-candy](https://github.com/sbagul077/Daily-Submissions/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/sbagul077/Daily-Submissions/tree/master/0253-meeting-rooms-ii) |
 | [0561-array-partition](https://github.com/sbagul077/Daily-Submissions/tree/master/0561-array-partition) |
 | [0621-task-scheduler](https://github.com/sbagul077/Daily-Submissions/tree/master/0621-task-scheduler) |
